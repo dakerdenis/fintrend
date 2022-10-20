@@ -9,10 +9,35 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-
     <!-- main container----->
     <div class="main_wrapper">
-            
+      <div class="box" id="calculator">
+
+        <div id="inner-la"></div>
+        <input
+          id="loan-amount"
+          type="range"
+          min="50"
+          max="500"
+          step="10"
+          value="50"
+        />
+        <div id="inner-nom"></div>
+        <input
+          id="number-of-months"
+          type="range"
+          min="1"
+          max="12"
+          step="1"
+          value="1"
+        />
+        <div class="info">
+          <div>Вы берете<span id="loan"></span></div>
+          <div>Период<span id="period"> </span></div>
+          <div>Вы возвращаете<span id="willreturn"></span></div>
+        </div>
+        <button id="inner-total">Оформить займ</button>
+      </div>
     </div>
 
     <script src="./js/script.js"></script>
