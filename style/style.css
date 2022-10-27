@@ -191,16 +191,25 @@ h6 {
 }
 .element__line {
   margin-top: 3em;
-  border: 1px solid #DBD7D7;
+  border: 1px solid #dbd7d7;
   width: 100%;
 }
 .services__desc__block {
 }
 .services__desc__element {
+  display: flex;
 }
 .services__desc__element__image {
+  width: 22px;
+  height: 22px;
+  margin-left: 14px;
 }
 .services__desc__element__text {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
 }
 @media only screen and (max-width: 1690px) {
   .services__container_block {
