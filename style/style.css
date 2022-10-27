@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -98,5 +99,112 @@ h6 {
 /**************************/
 .main__wrapper {
   width: 100%;
+}
 
+/*********services elements*****************/
+/*********services elements*****************/
+/*********services elements*****************/
+/*********services elements*****************/
+/*********services elements*****************/
+
+.block__content__services {
+  width: 90%;
+  margin: 0 auto;
+}
+.services__container_block {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.services__wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__element__block {
+  width: 25%;
+  padding: 0 15px 30px;
+}
+.services__element {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 20px;
+}
+.element__wrapper {
+}
+.element__name {
+  font-family: "Oswald";
+  color: rgba(39, 48, 73, 1);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 125%;
+  width: 100%;
+  text-align: center;
+}
+.element__money__date {
+  width: 100%;
+}
+.services__money {
+}
+.services__money__desc {
+  color: rgba(39, 48, 73, 1);
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 125%;
+}
+.services__money_number {
+  color: rgba(181, 175, 175, 1);
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 125%;
+}
+.element__line {
+}
+.services__desc__block {
+}
+.services__desc__element {
+}
+.services__desc__element__image {
+}
+.services__desc__element__text {
+}
+@media only screen and (max-width: 1690px) {
+  .services__container_block {
+    max-width: 1320px;
+  }
+}
+@media only screen and (max-width: 1580px) {
+  .services__container_block {
+    max-width: 1240px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .services__container_block {
+    max-width: 1140px;
+  }
+}
+@media only screen and (max-width: 1368px) {
+  .services__container_block {
+    max-width: 1080px;
+  }
+}
+@media only screen and (max-width: 1285px) {
+  .services__container_block {
+    max-width: 1020px;
+  }
+}
+@media only screen and (max-width: 1199.98px) {
+  .services__container_block {
+    max-width: 950px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .services__container_block {
+    max-width: 450px;
+  }
 }
