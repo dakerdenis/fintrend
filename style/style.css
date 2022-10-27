@@ -218,11 +218,32 @@ h6 {
   font-size: 18px;
   line-height: 125%;
 }
+.element__okw{
+  display: none;
+  visibility: hidden;
+}
 .services__element:hover {
   background-color: rgba(39, 48, 73, 1);
 }
 .services__element:hover .element__name{
   color: rgba(248, 240, 246, 1);
+}
+.services__element:hover .services__money__desc p{
+  color: #fff;
+}
+.services__element:hover .services__money_number p{
+  color: #fff;
+}
+.services__element:hover .services__desc__element__text{
+  color: rgba(248, 240, 246, 1);
+}
+.services__element:hover .element__ok{
+  display: none;
+  visibility: hidden;
+}
+.services__element:hover .element__okw{
+  display: initial;
+  visibility: visible;
 }
 @media only screen and (max-width: 1690px) {
   .services__container_block {
