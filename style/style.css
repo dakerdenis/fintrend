@@ -222,9 +222,13 @@ h6 {
   display: none;
   visibility: hidden;
 }
+/*********animations *****************/
+/*********animations *****************/
+
 .services__element:hover {
   background-color: rgba(39, 48, 73, 1);
 }
+
 .services__element:hover .element__name{
   color: rgba(248, 240, 246, 1);
 }
@@ -244,6 +248,34 @@ h6 {
 .services__element:hover .element__okw{
   display: initial;
   visibility: visible;
+}
+
+/********footer container styles**********************/
+/********footer container styles**********************/
+/********footer container styles**********************/
+/********footer container styles**********************/
+.footer__container {
+  background-color: rgba(39, 48, 73, 1);
+}
+.footer__content {
+}
+.footer__content__wrapper {
+}
+.footer__content__image {
+}
+.footer__content__image_block {
+}
+.footer__content__text {
+}
+.footer__content__textwrapper {
+}
+.footer__content__textname {
+}
+.footer__line {
+}
+.footer__content__textelement {
+}
+.footer__rights {
 }
 @media only screen and (max-width: 1690px) {
   .services__container_block {
