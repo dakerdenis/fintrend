@@ -300,12 +300,14 @@ h6 {
 .footer__content__textelement {
   margin-top: 2.5em;
 }
-.footer__content__textelement p {
+.footer__content__textelement a {
+  display: block;
   color: #fff;
   font-size: 19px;
   font-weight: 500;
   line-height: 35%;
   margin-top: 28px;
+  text-decoration: none;
 }
 .footer__rights {
   height: 40px;
