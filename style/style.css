@@ -218,6 +218,12 @@ h6 {
   font-size: 18px;
   line-height: 125%;
 }
+.services__element:hover {
+  background-color: rgba(39, 48, 73, 1);
+}
+.services__element:hover .element__name{
+  color: rgba(248, 240, 246, 1);
+}
 @media only screen and (max-width: 1690px) {
   .services__container_block {
     max-width: 1320px;
