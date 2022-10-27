@@ -150,6 +150,7 @@ h6 {
   padding: 20px;
 }
 .element__wrapper {
+  font-family: "Oswald";
 }
 .element__name {
   font-family: "Oswald";
@@ -174,7 +175,7 @@ h6 {
   align-items: center;
 }
 .services__money__desc {
-  font-family: "Ubuntu";
+
   color: rgba(39, 48, 73, 1);
   font-style: normal;
   font-weight: 400;
@@ -182,7 +183,7 @@ h6 {
   line-height: 125%;
 }
 .services__money_number {
-  font-family: "Ubuntu";
+
   color: rgba(181, 175, 175, 1);
   font-style: normal;
   font-weight: 700;
@@ -199,13 +200,19 @@ h6 {
 .services__desc__element {
   display: flex;
 }
+.services__desc__element:first-child{
+  margin-top: 22px;
+}
+.services__desc__element{
+  margin-top: 16px;
+}
 .services__desc__element__image {
   width: 22px;
   height: 22px;
-  margin-left: 14px;
+  margin-right: 14px;
 }
 .services__desc__element__text {
-
+  color: rgba(181, 175, 175, 1);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
