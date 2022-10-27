@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: Ubuntu;
+  src: url(./ubuntu-font-family-0.80/Ubuntu-B.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-BI.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-C.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-L.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-LI.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-M.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-MI.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-R.ttf),
+    url(./ubuntu-font-family-0.80/Ubuntu-RI.ttf),
+    url(./ubuntu-font-family-0.80/UbuntuMono-B.ttf),
+    url(./ubuntu-font-family-0.80/UbuntuMono-BI.ttf),
+    url(./ubuntu-font-family-0.80/UbuntuMono-R.ttf),
+    url(./ubuntu-font-family-0.80/UbuntuMono-R.ttf),
+    url(./ubuntu-font-family-0.80/UbuntuMono-RI.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -146,24 +163,36 @@ h6 {
 }
 .element__money__date {
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 .services__money {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
 }
 .services__money__desc {
+  font-family: "Ubuntu";
   color: rgba(39, 48, 73, 1);
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 125%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
 }
 .services__money_number {
+  font-family: "Ubuntu";
   color: rgba(181, 175, 175, 1);
   font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 125%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
 }
 .element__line {
+  margin-top: 3em;
+  border: 1px solid #DBD7D7;
+  width: 100%;
 }
 .services__desc__block {
 }
