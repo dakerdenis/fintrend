@@ -203,6 +203,8 @@ h6 {
 }
 .services__desc__element {
   margin-top: 16px;
+  display: flex;
+  align-items: center;
 }
 .services__desc__element__image {
   width: 22px;
@@ -254,6 +256,9 @@ h6 {
 /********footer container styles**********************/
 .footer__container {
   background-color: rgba(39, 48, 73, 1);
+
+  display: none;
+  visibility: hidden;
 }
 .footer__content {
   font-family: "Oswald";
@@ -342,19 +347,74 @@ h6 {
   .services__container_block {
     max-width: 1080px;
   }
+  .services__element{
+    padding: 15px;
+  }
+  .element__name{
+    font-size: 44px;
+  }
+  .services__money_number{
+    font-size: 30px;
+  }
+  .element__line {
+    margin-top: 2em;
+  }
+
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
     max-width: 1020px;
+  }
+  .services__element__block{
+
   }
 }
 @media only screen and (max-width: 1199.98px) {
   .services__container_block {
     max-width: 950px;
   }
+  .element__name{
+    font-size: 35px;
+  }
+  .services__desc__element__text{
+    font-size: 17px;
+  }
+  .services__desc__element__image{
+    width: 20px;
+    height: 20px;
+  }
+  .services__money {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .services__container_block {
     max-width: 450px;
   }
+  .services__element__block{
+    width: 49%;
+  }
 }
+
+@media only screen and (max-width: 426px) {
+  .block__content__services{
+    width: 100%;
+  }
+  .element__name {
+    font-size: 30px;
+  }
+  .services__element {
+    padding: 13px;
+  }
+  .services__money_number {
+    font-size: 27px;
+  }
+  .services__desc__element__image{
+    width: 17px;
+    height: 17px;
+  }
+  .services__desc__element__text{
+    font-size: 15px;
+  }
+}
+
