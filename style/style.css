@@ -115,7 +115,7 @@ h6 {
 /**************************/
 /**************************/
 /******header styles**********************/
-.header__container{
+.header__container {
   height: 100px;
   width: 100%;
   background-color: rgba(39, 48, 73, 0.123);
@@ -140,7 +140,6 @@ h6 {
 /*********services elements*****************/
 
 .block__content__services {
-
   width: 90%;
   margin: 0 auto;
   margin-top: 5em;
@@ -157,7 +156,7 @@ h6 {
   flex-wrap: wrap;
 }
 .services__element__block {
-  width: 25%;
+  width: 20%;
   padding: 0 15px 30px;
 }
 .services__element {
@@ -266,24 +265,48 @@ h6 {
   display: initial;
   visibility: visible;
 }
-.services__main_name{
+.services__main_name {
   width: 100%;
   text-align: center;
   color: rgba(39, 48, 73, 1);
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 125%;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125%;
 }
+/********about container styles**********************/
+/********about container styles**********************/
+/********about container styles**********************/
+/********about container styles**********************/
+.block__content__about {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+.about__main_name {
+  width: 100%;
+  text-align: center;
+  color: rgba(39, 48, 73, 1);
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125%;
+}
+.about__container_block {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.about_wrapper {
+}
+
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/
 .footer__container {
   background-color: rgba(39, 48, 73, 1);
-
-
 }
 .footer__content {
   font-family: "Oswald";
@@ -352,8 +375,7 @@ line-height: 125%;
   line-height: 150%;
   color: #fff;
 }
-.footer__content__image_block img{
-
+.footer__content__image_block img {
 }
 
 @media only screen and (max-width: 1690px) {
@@ -375,48 +397,47 @@ line-height: 125%;
   .services__container_block {
     max-width: 1080px;
   }
-  .services__element{
+  .services__element {
     padding: 15px;
   }
-  .element__name{
+  .element__name {
     font-size: 44px;
   }
-  .services__money_number{
+  .services__money_number {
     font-size: 30px;
   }
   .element__line {
     margin-top: 2em;
   }
-/*****footer**********/
-.footer__content__textname p{
-  font-size: 28px;
-}
-.footer__content__image_block img {
-  width: 70%;
-}
-.footer__content__textelement {
-  margin-top: 3.5em;
-}
+  /*****footer**********/
+  .footer__content__textname p {
+    font-size: 28px;
+  }
+  .footer__content__image_block img {
+    width: 70%;
+  }
+  .footer__content__textelement {
+    margin-top: 3.5em;
+  }
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
     max-width: 1020px;
   }
-  .services__element__block{
-
+  .services__element__block {
   }
 }
 @media only screen and (max-width: 1199.98px) {
   .services__container_block {
     max-width: 950px;
   }
-  .element__name{
+  .element__name {
     font-size: 35px;
   }
-  .services__desc__element__text{
+  .services__desc__element__text {
     font-size: 17px;
   }
-  .services__desc__element__image{
+  .services__desc__element__image {
     width: 20px;
     height: 20px;
   }
@@ -425,9 +446,9 @@ line-height: 125%;
   }
   /********footer*************/
   .footer__content__textname p {
-    font-size: 23px                       ;
+    font-size: 23px;
   }
-  .footer__content__textelement a{
+  .footer__content__textelement a {
     font-size: 19.5px;
   }
 }
@@ -435,36 +456,36 @@ line-height: 125%;
   .services__container_block {
     max-width: 450px;
   }
-  .services__element__block{
+  .services__element__block {
     width: 49%;
   }
   /**********footer************/
   .footer__content__image {
     width: 21%;
   }
-  .footer__content__image_block img{
+  .footer__content__image_block img {
     width: 100%;
   }
   .footer__content__text {
     width: 25%;
   }
   .footer__content__textname p {
-    line-height: 140%;   
-    font-size: 18px; 
+    line-height: 140%;
+    font-size: 18px;
   }
-  .footer__line{
+  .footer__line {
     margin-top: 0.3em;
   }
-  .footer__content__textelement a{
+  .footer__content__textelement a {
     font-size: 17.5px;
     margin-top: 25px;
   }
-  .footer__content__textelement{
+  .footer__content__textelement {
     margin-top: 2.5em;
   }
 }
 @media only screen and (max-width: 426px) {
-  .block__content__services{
+  .block__content__services {
     width: 100%;
   }
   .element__name {
@@ -476,13 +497,13 @@ line-height: 125%;
   .services__money_number {
     font-size: 27px;
   }
-  .services__desc__element__image img{
+  .services__desc__element__image img {
     width: 100%;
   }
   .services__desc__element__image {
     margin-right: 7px;
   }
-  .services__desc__element__text{
+  .services__desc__element__text {
     font-size: 15px;
   }
   .element__line {
@@ -491,31 +512,30 @@ line-height: 125%;
   .services__desc__element:first-child {
     margin-top: 12px;
   }
-  .services__main_name{
+  .services__main_name {
     font-size: 40px;
     line-height: 100%;
   }
-  .services__wrapper{
+  .services__wrapper {
     margin-top: 45px;
   }
 }
 @media only screen and (max-width: 376px) {
-  .services__element__block{
+  .services__element__block {
     width: 50%;
   }
-  .services__desc__element__image{
-
+  .services__desc__element__image {
   }
-  .services__desc__element__text{
+  .services__desc__element__text {
     font-size: 14px;
   }
-  .services__desc__element{
+  .services__desc__element {
     margin-top: 11px;
   }
   .services__element {
     padding: 11px;
   }
-  .services__desc__element__image{
+  .services__desc__element__image {
     width: 18px;
     height: 18px;
   }
