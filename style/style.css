@@ -409,12 +409,49 @@ h6 {
   .services__money_number {
     font-size: 27px;
   }
-  .services__desc__element__image{
-    width: 17px;
-    height: 17px;
+  .services__desc__element__image img{
+    width: 100%;
+  }
+  .services__desc__element__image {
+    margin-right: 7px;
   }
   .services__desc__element__text{
     font-size: 15px;
   }
+  .element__line {
+    margin-top: 1.1em;
+  }
+  .services__desc__element:first-child {
+    margin-top: 12px;
+  }
 }
+@media only screen and (max-width: 376px) {
+  .services__element__block{
+    width: 50%;
+  }
+  .services__desc__element__image{
 
+  }
+  .services__desc__element__text{
+    font-size: 14px;
+  }
+  .services__desc__element{
+    margin-top: 11px;
+  }
+  .services__element {
+    padding: 11px;
+  }
+  .services__desc__element__image{
+    width: 18px;
+    height: 18px;
+  }
+  .element__line {
+    margin-top: 1em;
+  }
+  .services__desc__element:first-child {
+    margin-top: 12px;
+  }
+  .services__element__block {
+    padding: 0 6px 15px;
+  }
+}
