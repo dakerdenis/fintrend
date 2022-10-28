@@ -135,7 +135,7 @@ h6 {
 .services__wrapper {
   width: 100%;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -249,7 +249,16 @@ h6 {
   display: initial;
   visibility: visible;
 }
-
+.services__main_name{
+  width: 100%;
+  text-align: center;
+  color: rgba(39, 48, 73, 1);
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 125%;
+}
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/
@@ -327,7 +336,7 @@ h6 {
   color: #fff;
 }
 .footer__content__image_block img{
-  width: 100%;
+
 }
 
 @media only screen and (max-width: 1690px) {
@@ -437,7 +446,6 @@ h6 {
     margin-top: 2.5em;
   }
 }
-
 @media only screen and (max-width: 426px) {
   .block__content__services{
     width: 100%;
@@ -465,6 +473,13 @@ h6 {
   }
   .services__desc__element:first-child {
     margin-top: 12px;
+  }
+  .services__main_name{
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .services__wrapper{
+    margin-top: 45px;
   }
 }
 @media only screen and (max-width: 376px) {
