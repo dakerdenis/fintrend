@@ -114,7 +114,15 @@ h6 {
 /**************************/
 /**************************/
 /**************************/
-
+/******header styles**********************/
+.header__container{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(39, 48, 73, 0.123);
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
 /*********swiper slider*****************/
 .main__slider_block {
   width: 100%;
@@ -132,8 +140,10 @@ h6 {
 /*********services elements*****************/
 
 .block__content__services {
+
   width: 90%;
   margin: 0 auto;
+  margin-top: 5em;
 }
 .services__container_block {
   max-width: 100%;
