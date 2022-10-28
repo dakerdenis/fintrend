@@ -257,8 +257,7 @@ h6 {
 .footer__container {
   background-color: rgba(39, 48, 73, 1);
 
-  display: none;
-  visibility: hidden;
+
 }
 .footer__content {
   font-family: "Oswald";
@@ -303,12 +302,12 @@ h6 {
   margin-top: 1.3em;
 }
 .footer__content__textelement {
-  margin-top: 2.5em;
+  margin-top: 5.5em;
 }
 .footer__content__textelement a {
   display: block;
   color: #fff;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 35%;
   margin-top: 28px;
@@ -326,6 +325,9 @@ h6 {
   font-size: 16px;
   line-height: 150%;
   color: #fff;
+}
+.footer__content__image_block img{
+  width: 100%;
 }
 
 @media only screen and (max-width: 1690px) {
@@ -359,7 +361,16 @@ h6 {
   .element__line {
     margin-top: 2em;
   }
-
+/*****footer**********/
+.footer__content__textname p{
+  font-size: 28px;
+}
+.footer__content__image_block img {
+  width: 70%;
+}
+.footer__content__textelement {
+  margin-top: 3.5em;
+}
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
