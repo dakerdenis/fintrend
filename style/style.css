@@ -397,6 +397,13 @@ h6 {
   .services__money {
     width: 80%;
   }
+  /********footer*************/
+  .footer__content__textname p {
+    font-size: 23px                       ;
+  }
+  .footer__content__textelement a{
+    font-size: 19.5px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .services__container_block {
@@ -404,6 +411,30 @@ h6 {
   }
   .services__element__block{
     width: 49%;
+  }
+  /**********footer************/
+  .footer__content__image {
+    width: 21%;
+  }
+  .footer__content__image_block img{
+    width: 100%;
+  }
+  .footer__content__text {
+    width: 25%;
+  }
+  .footer__content__textname p {
+    line-height: 140%;   
+    font-size: 18px; 
+  }
+  .footer__line{
+    margin-top: 0.3em;
+  }
+  .footer__content__textelement a{
+    font-size: 17.5px;
+    margin-top: 25px;
+  }
+  .footer__content__textelement{
+    margin-top: 2.5em;
   }
 }
 
