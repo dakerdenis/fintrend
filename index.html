@@ -7,12 +7,13 @@
     <title>Fintrend</title>
     <!---main styles-->
     <link rel="stylesheet" href="./style/style.css" />
-        <!-- Link Swiper's CSS -->
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-      />
-  
+    <!-- Link Swiper's CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/swiper.css">
   </head>
   <body>
     <!-- main container----->
@@ -23,15 +24,29 @@
         <!---главный блок слайдера---->
         <div class="main__slider_block">
           <div class="main__slider__wrapper">
-
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5asdasd</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <!---главный блок услуги---->
         <div class="block__content__services">
-          <div class="services__main_name">
-            Услуги
-          </div>
+          <div class="services__main_name">Услуги</div>
           <div class="services__container_block">
             <div class="services__wrapper">
               <!-- services element--->
@@ -311,7 +326,7 @@
         </div>
 
         <!----о нас раздел--->
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <!------->
         <!------->
         <!------->
@@ -378,7 +393,25 @@
         </div>
       </div>
     </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <script src="./js/script.js"></script>
   </body>
 </html>
