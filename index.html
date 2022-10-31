@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fintrend</title>
-    <!---main styles-->
-    <link rel="stylesheet" href="./style/style.css" />
+
     <!-- Link Swiper's CSS -->
 
     <link
@@ -15,8 +14,12 @@
     />
     <link rel="stylesheet" href="./style/swiper.css" />
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+        <!---main styles-->
+        <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <!-- main container----->
@@ -49,11 +52,11 @@
               <div class="dropdown-container">
                 <label for="openDropdown" class="dropdown">
                   RU
-<i class="fa fa-caret-down" aria-hidden="true"></i>
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
                 </label>
-                
-                <input type="checkbox" id="openDropdown" hidden>
-              
+
+                <input type="checkbox" id="openDropdown" hidden />
+
                 <div class="dropdown-menu">
                   <span>AZ</span>
                   <span>EN</span>
@@ -71,7 +74,19 @@
             <!-- Swiper -->
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">Блок информация 1</div>
+                <div class="swiper-slide">
+                  <div class="swiper__slide__contentblock">
+                    <img src="./imgs/abc.png" alt="">
+                    <div class="swiper__slide_content_dontainer">
+                        <div class="swpr_sld_content_blockname">
+                          Lorem ipsum dolor sit amet, Lorem ipsum adipiscing elit
+                        </div>
+                        <div class="swpr_sld_content_desc">
+                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                        </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="swiper-slide">Блок информация 2</div>
                 <div class="swiper-slide">Блок информация 3</div>
                 <div class="swiper-slide">Блок информация 4</div>
@@ -436,9 +451,7 @@
         <div class="block__content__about">
           <div class="about__main_name">О нас</div>
           <div class="about__container_block">
-            <div class="about_wrapper">
-              
-            </div>
+            <div class="about_wrapper"></div>
           </div>
         </div>
         <!------->
