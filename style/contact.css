@@ -2,7 +2,7 @@
 .contact-wrapper {
     position: fixed;
     right: 0;
-    bottom: 80px;
+    bottom: 120px;
     transform: translateX(101%);
     -webkit-transition: transform .4s ease-in-out;
     transition: transform .4s ease-in-out;
@@ -87,20 +87,19 @@
   
   .contact-button {
     border: 0;
-    background-color: #101845;
-    color: #fff;
+    background-color: #10184500;
+    color: #fff; 
     cursor: pointer;
     padding: 8px 16px;
-    -webkit-transition: background-color .4s ease-in-out;
-    transition: background-color .4s ease-in-out;
     font-size: 16px;
     line-height: 20px;
     position: fixed;
     bottom: 10px;
     right: 10px;
     border-radius: 4px;
+    transition: ease-in-out 0.5s;
   }
   
   .contact-button:hover {
-    background-color: #212b63;
+    transform: scale(0.9);
   }

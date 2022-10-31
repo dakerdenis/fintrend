@@ -49,7 +49,7 @@ wrapper.innerHTML = `
                     <i class="fa fa-whatsapp"></i>
                 </a>
             </li>
-
+  
             <li>
                 <a href="https://github.com/markodenic" target="_blank">
                     <i class="fa fa-telegram"></i>
@@ -60,7 +60,7 @@ wrapper.innerHTML = `
 </div>
 
 <button class="contact-button">
-    Get in Touch
+  <img src="./imgs/contact.svg" alt="">
 </button>
 `;
 document.body.appendChild(wrapper);
