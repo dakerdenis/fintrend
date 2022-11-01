@@ -639,7 +639,7 @@ line-height: 42px;
     margin-top: 2.5em;
   }
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 427px) {
   .block__content__services {
     width: 100%;
   }
@@ -673,6 +673,25 @@ line-height: 42px;
   }
   .services__wrapper {
     margin-top: 45px;
+    justify-content: space-around;
+  }
+  /******************/
+  .footer__content__wrapper{
+    flex-direction: column;
+  }
+  .footer__content__text{
+    width: 100%;
+  }
+  .footer__content__textwrapper{
+    margin-bottom: 3em;
+  }
+  .contact-button{
+
+  }
+  .contact-button img{
+    width: 70px;
+    height: 70px;
+
   }
 }
 @media only screen and (max-width: 376px) {
