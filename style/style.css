@@ -639,6 +639,9 @@ line-height: 42px;
   .footer__content__textelement {
     margin-top: 2.5em;
   }
+  .footer__content__image_block img {
+    width: 170%;
+  }
   /********header***************/
   .header__nav_wrapper{
     display: none;
