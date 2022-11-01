@@ -98,6 +98,7 @@
     right: 10px;
     border-radius: 4px;
     transition: ease-in-out 0.5s;
+    z-index: 50;
   }
   
   .contact-button:hover {
