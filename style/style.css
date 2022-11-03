@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @font-face {
   font-family: Ubuntu;
   src: url(./ubuntu-font-family-0.80/Ubuntu-B.ttf),
@@ -59,8 +60,6 @@ body {
   -webkit-text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
 }
-
-
 
 input,
 button,
@@ -150,17 +149,16 @@ h6 {
 .header__nav__element a {
   color: rgba(39, 48, 73, 1);
   font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-text-decoration: none;
-padding: 5px 0px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 5px 0px;
 }
-.header__nav__element a:hover{
+.header__nav__element a:hover {
   border-bottom: 2px solid rgba(39, 48, 73, 1);
 }
 .header__nav__element_language {
-
 }
 
 .dropdown-container {
@@ -169,7 +167,6 @@ padding: 5px 0px;
 }
 
 .dropdown {
-
   padding: 10px;
   border-radius: 0.5px;
   width: 50px;
@@ -224,14 +221,17 @@ padding: 5px 0px;
 }
 
 @keyframes openDropDown {
-  from { transform: rotateX(50deg); }
-  to { transform: rotateX(0deg); }
+  from {
+    transform: rotateX(50deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
 }
 
 /*********swiper slider*****************/
 
 .main__slider_block {
-
   width: 100%;
   min-height: 100vh;
   background-color: rgba(39, 48, 73, 1);
@@ -243,7 +243,7 @@ padding: 5px 0px;
 .swiper__slide__contentblock {
   width: 100%;
   height: 100%;
- position: relative; 
+  position: relative;
 }
 .swiper__slide__contentblock img {
   height: 100%;
@@ -259,32 +259,29 @@ padding: 5px 0px;
 
   width: 35%;
   padding: 18px;
-
 }
 .swpr_sld_content_blockname {
   padding-left: 25px;
   border-left: 2px solid rgba(106, 128, 207, 1);
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 64px;
-line-height: 95px;
-color: rgba(255, 255, 255, 1);
-text-transform: uppercase;
-margin-bottom: 20px;
-margin-top: 15px;
-
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 .swpr_sld_content_blockname span {
-  color:rgba(106, 128, 207, 1) ;
+  color: rgba(106, 128, 207, 1);
 }
 .swpr_sld_content_desc {
   color: rgba(255, 255, 255, 1);
   font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 42px;
-
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
 }
 /*********services elements*****************/
 /*********services elements*****************/
@@ -452,6 +449,53 @@ line-height: 42px;
   margin: 0 auto;
 }
 .about_wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about__element_block {
+  width: 20%;
+  padding: 0 15px 30px;
+}
+.about__element {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+
+  padding: 20px;
+}
+.about__element__wrapper {
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__image_block {
+}
+.about__element__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+}
+.about__element__desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #808080;
+  margin-top: 12px;
+  padding: 0px 8px 0px 8px;
+  margin-bottom: 24px;
+}
+.about__element__line {
+
+  width: 100%;
+  border-top: 3px solid rgba(39, 48, 73, 1);
 }
 
 /********footer container styles**********************/
@@ -530,7 +574,7 @@ line-height: 42px;
 }
 .footer__content__image_block img {
 }
-.mobile__burger_block{
+.mobile__burger_block {
   display: none;
   visibility: hidden;
 }
@@ -643,18 +687,18 @@ line-height: 42px;
     width: 170%;
   }
   /********header***************/
-  .header__nav_wrapper{
+  .header__nav_wrapper {
     display: none;
     visibility: hidden;
   }
-  .mobile__burger_block{
+  .mobile__burger_block {
     display: initial;
     visibility: visible;
   }
   .header__image a {
     width: 78%;
   }
-  .header__image img{
+  .header__image img {
     width: 92%;
   }
 }
@@ -695,28 +739,26 @@ line-height: 42px;
     justify-content: space-around;
   }
   /******************/
-  .footer__content__wrapper{
+  .footer__content__wrapper {
     flex-direction: column;
   }
-  .footer__content__text{
+  .footer__content__text {
     width: 100%;
   }
-  .footer__content__textwrapper{
+  .footer__content__textwrapper {
     margin-bottom: 3em;
   }
-  .contact-button{
-
+  .contact-button {
   }
-  .contact-button img{
+  .contact-button img {
     width: 70px;
     height: 70px;
-
   }
   /**************************/
   .swpr_sld_content_blockname {
     padding-left: 25px;
     border-left: 2px solid rgba(106, 128, 207, 1);
-    font-family: 'Oswald';
+    font-family: "Oswald";
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -725,31 +767,31 @@ line-height: 42px;
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 15px;
-}
-.swpr_sld_content_desc {
-  color: rgba(255, 255, 255, 1);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 23px;
-  line-height: 33px;
-}
-.swiper__slide_content_dontainer {
-  position: absolute;
-  z-index: 20;
-  background-color: rgba(39, 48, 73, 0.48);
-  bottom: 8%;
-  left: 9%;
-  width: 84%;
-  padding: 18px;
-}
-.swiper-button-next {
-  display: none;
-  visibility: hidden;
-}
-.swiper-button-prev {
-  display: none;
-  visibility: hidden;
-}
+  }
+  .swpr_sld_content_desc {
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .swiper__slide_content_dontainer {
+    position: absolute;
+    z-index: 20;
+    background-color: rgba(39, 48, 73, 0.48);
+    bottom: 8%;
+    left: 9%;
+    width: 84%;
+    padding: 18px;
+  }
+  .swiper-button-next {
+    display: none;
+    visibility: hidden;
+  }
+  .swiper-button-prev {
+    display: none;
+    visibility: hidden;
+  }
 }
 @media only screen and (max-width: 376px) {
   .services__element__block {
