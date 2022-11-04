@@ -335,7 +335,7 @@ h6 {
 }
 .services__money {
   display: flex;
-  width: 50%;
+
   margin: 0 auto;
   flex-direction: column;
   align-items: center;
@@ -516,7 +516,6 @@ h6 {
   width: 100%;
 
 
-  padding: 20px;
 }
 .about__element__wrapper {
   font-family: "Oswald";
@@ -698,6 +697,9 @@ padding: 5px 45px;
   .services__container_block {
     max-width: 1240px;
   }
+  .element__name {
+    font-size: 40px;
+  }
 }
 @media only screen and (max-width: 1450px) {
   .services__container_block {
@@ -733,12 +735,24 @@ padding: 5px 45px;
   .services__element__block{
     width: 24%;
   }
+  .about__element_block {
+    width: 32%;
+  }  
+  .about_wrapper{
+    justify-content: space-evenly;
+  }
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
     max-width: 1020px;
   }
   .services__element__block {
+  }
+  .about__element_block {
+    width: 33%;
+  }  
+  .about_wrapper{
+    justify-content: space-evenly;
   }
 }
 @media only screen and (max-width: 1199.98px) {
@@ -814,6 +828,20 @@ padding: 5px 45px;
   }
   .header__image img {
     width: 92%;
+  }
+  .services__container_block {
+    max-width: 1020px;
+  }
+  .services__element__block {
+  }
+  .about__element_block {
+    width: 48%;
+  }  
+  .about_wrapper{
+    justify-content: space-evenly;
+  }
+  .block__content__about{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 427px) {
@@ -905,6 +933,15 @@ padding: 5px 45px;
   .swiper-button-prev {
     display: none;
     visibility: hidden;
+  }
+  .about__element_block {
+    width: 100%;
+  }  
+  .about_wrapper{
+    justify-content: space-evenly;
+  }
+  .block__content__about{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 376px) {
