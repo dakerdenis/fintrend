@@ -71,7 +71,7 @@
 
 .floatingMenu li a {
   padding: 8px 15px;
-  display: inline-block;
+  display: inline-block; 
   background: #ccd7f5;
   color: #6077b0;
   border-radius: 5px;
