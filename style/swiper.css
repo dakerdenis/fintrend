@@ -43,7 +43,7 @@
     background-color: rgba(106, 128, 207, 1) !important;
 }
 .swiper-button-next1{
-  background-color: green;
+
   color: rgba(106, 128, 207, 1);
   position: absolute;
   top: 50%;
@@ -52,9 +52,11 @@
   height: 40px;
   z-index: 20;
   background-image: url('../imgs/arrow_forward.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .swiper-button-prev1{
-  background-color: red;
+
   color: rgba(106, 128, 207, 1);
   position: absolute;
   top: 50%;
@@ -63,6 +65,11 @@
   height: 40px;
   z-index: 20;
   background-image: url('../imgs/arrow_back.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-slide2{
+  background-color: #fff;
 }
 @media only screen and (max-width: 427px) {
   .swiper{
