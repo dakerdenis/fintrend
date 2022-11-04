@@ -504,6 +504,12 @@ h6 {
   width: 100%;
 
 }
+.about__sliderelement__block{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/
