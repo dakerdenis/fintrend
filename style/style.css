@@ -498,7 +498,11 @@ h6 {
   width: 100%;
   border-top: 3px solid rgba(39, 48, 73, 1);
 }
-
+.about__element__slider{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 /********footer container styles**********************/
 /********footer container styles**********************/
 /********footer container styles**********************/

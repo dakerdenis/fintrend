@@ -558,15 +558,22 @@
                   <div class="about__element__wrapper">
                     <div class="about__element__slider">
                       <!-- Swiper -->
-                      <div class="swiper mySwiper swiper2">
-                        <div class="swiper-wrapper swiper-wrapper2">
-                          <div class="swiper-slide swiper-slide2">dasdasdas</div>
-                          <div class="swiper-slide swiper-slide2">Блок информация 2</div>
-                          <div class="swiper-slide swiper-slide2">Блок информация 3</div>
-                          <div class="swiper-slide swiper-slide2">Блок информация 4</div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+
+                      <!-- Slider main container -->
+                      <div class="swiper-container1">
+                          <!-- Additional required wrapper -->
+                          <div class="swiper-wrapper1">
+                              <!-- Slides -->
+                              <div class="swiper-slide1">Slide 1</div>
+                            <div class="swiper-slide1">Slide 2</div>
+                            <div class="swiper-slide1">Slide 3</div>
+                          </div>
+                          <!-- If we need pagination -->
+                          <div class="swiper-pagination1"></div>
+                          
+                          <!-- If we need navigation buttons -->
+                          <div class="swiper-button-prev1"></div>
+                          <div class="swiper-button-next1"></div>
                       </div>
                     </div>
                   </div>
@@ -662,7 +669,27 @@
           prevEl: ".swiper-button-prev",
         },
       });
+
+      var menu = ["Slide 1", "Slide 2", "Slide 3"];
+      var mySwiper = new Swiper(".swiper-container1", {
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination1",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + menu[index] + "</span>";
+          },
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next1",
+          prevEl: ".swiper-button-prev1",
+        },
+      });
     </script>
+    <!-- Initialize Swiper -->
+
     <script src="./js/script.js"></script>
   </body>
 </html>
