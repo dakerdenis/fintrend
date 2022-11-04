@@ -470,7 +470,8 @@ h6 {
   position: absolute;
   background-color: #fff;
   bottom: 0;
-  width: 100%;
+  width: 104%;
+  left: -5px;
   height: 52px
 }
 .converter__placeholder_right {
@@ -700,6 +701,9 @@ padding: 5px 45px;
   .element__name {
     font-size: 40px;
   }
+  .element__line {
+    margin-top: 1em;
+  }
 }
 @media only screen and (max-width: 1450px) {
   .services__container_block {
@@ -712,6 +716,9 @@ padding: 5px 45px;
   }
   .services__element {
     padding: 15px;
+  }
+  .services__wrapper{
+    justify-content: space-evenly;
   }
   .element__name {
     font-size: 44px;
@@ -733,13 +740,16 @@ padding: 5px 45px;
     margin-top: 3.5em;
   }
   .services__element__block{
-    width: 24%;
+    width: 30%;
   }
   .about__element_block {
     width: 32%;
   }  
   .about_wrapper{
     justify-content: space-evenly;
+  }
+  .converter__wrapper__block {
+    width: 40%;
   }
 }
 @media only screen and (max-width: 1285px) {
@@ -749,7 +759,7 @@ padding: 5px 45px;
   .services__element__block {
   }
   .about__element_block {
-    width: 33%;
+    width: 45%;
   }  
   .about_wrapper{
     justify-content: space-evenly;
@@ -842,6 +852,14 @@ padding: 5px 45px;
   }
   .block__content__about{
     width: 100%;
+  }
+  .converter__wrapper__block{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 620px){
+  .converter__wrapper__block{
+    width: 95%;
   }
 }
 @media only screen and (max-width: 427px) {
@@ -941,6 +959,9 @@ padding: 5px 45px;
     justify-content: space-evenly;
   }
   .block__content__about{
+    width: 100%;
+  }
+  .converter__wrapper__block{
     width: 100%;
   }
 }

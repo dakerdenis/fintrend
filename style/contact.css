@@ -1,106 +1,90 @@
 
-.contact-wrapper {
-    position: fixed;
-    right: 0;
-    bottom: 20px;
-    transform: translateX(101%);
-    -webkit-transition: transform .4s ease-in-out;
-    transition: transform .4s ease-in-out;
-    z-index: 100;
-  }
-  
-   .contact-wrapper.contact-wrapper--open {
-     transform: translateX(-10px);
-  }
-  
-  .contact-panel {
-    background-color: #fff;
-    border: 1px solid #101845;
-    max-width: 500px;
-    border-radius: 4px;
-    width: 100%;
-    position: relative;
-    z-index: 25;
-  }
-  
-  .contact-panel ul {
-    list-style-type: none;
-    padding: 15px;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .contact-panel ul li {
-    margin: 0 10px;
-    display: inline-block;
-  }
-  
-  .contact-panel ul li a {
-    border-radius: 50%;
-    color: #101845;
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-    line-height: 50px;
-    text-decoration: none;
-    box-shadow: 0 1px 2px 1px rgba(170, 170, 170, 0.2);
-    -webkit-transition: box-shadow .4s ease-in-out;
-    transition: box-shadow .4s;
-  }
-  
-  .contact-panel ul li a:hover {
-    box-shadow: 0 2px 5px 1px rgba(170, 170, 170, 0.6);
-  }
-  
-  .contact-panel ul li a i {
-    font-size: 20px;
-    line-height: 50px;
-  }
-  
-  .contact-panel__header {
-    position: relative;
-    background-color: #101845;
-    color: #fff;
-    font-size: 21px;
-    line-height: 16px;
-    padding: 15px;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .contact-close {
-    border: 0;
-    background-color: #101845;
-    color: #fff;
-    position: absolute;
-    top: 0px;
-    height: 40px;
-    width: 40px;
-    right: 10px;
-    line-height: 48px;
-    font-size: 22px;
-  }
-  
-  .contact-close:focus {
-    outline: none;
-  }
-  
-  .contact-button {
-    border: 0;
-    background-color: #10184500;
-    color: #fff; 
-    cursor: pointer;
-    padding: 8px 16px;
-    font-size: 16px;
-    line-height: 20px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 4px;
-    transition: ease-in-out 0.5s;
-    z-index: 50;
-  }
-  
-  .contact-button:hover {
-    transform: scale(0.9);
-  }
+.floatingButtonWrap {
+  display: block;
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+  z-index: 999999999;
+}
+
+.floatingButtonInner {
+  position: relative;
+}
+
+.floatingButton {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, #8769a9, #507cb3);
+  background: -o-linear-gradient(45deg, #8769a9, #507cb3);
+  background: linear-gradient(45deg, #8769a9, #507cb3);
+  color: #fff;
+  line-height: 50px;
+  position: absolute;
+  border-radius: 50% 50%;
+  bottom: 0px;
+  right: 0px;
+  border: 5px solid #b2bedc;
+  /* opacity: 0.3; */
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+.floatingButton .fa {
+  font-size: 15px !important;
+}
+
+.floatingButton.open,
+.floatingButton:hover,
+.floatingButton:focus,
+.floatingButton:active {
+  opacity: 1;
+  color: #fff;
+}
+
+
+.floatingButton .fa {
+  transform: rotate(0deg);
+  transition: all 0.4s;
+}
+
+.floatingButton.open .fa {
+  transform: rotate(270deg);
+}
+
+.floatingMenu {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  /* width: 200px; */
+  display: none;
+}
+
+.floatingMenu li {
+  width: 100%;
+  float: right;
+  list-style: none;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.floatingMenu li a {
+  padding: 8px 15px;
+  display: inline-block;
+  background: #ccd7f5;
+  color: #6077b0;
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.4s;
+  /* -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22); */
+  -webkit-box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+  box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+}
+
+.floatingMenu li a:hover {
+  margin-right: 10px;
+  text-decoration: none;
+}
