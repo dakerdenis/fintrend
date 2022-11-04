@@ -730,6 +730,9 @@ padding: 5px 45px;
   .footer__content__textelement {
     margin-top: 3.5em;
   }
+  .services__element__block{
+    width: 24%;
+  }
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
