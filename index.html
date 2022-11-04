@@ -98,7 +98,7 @@
         <div class="main__slider_block">
           <div class="main__slider__wrapper">
             <!-- Swiper -->
-            <div class="swiper mySwiper">
+            <div class="swiper swiper-container1 mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="swiper__slide__contentblock">
@@ -559,21 +559,21 @@
                     <div class="about__element__slider">
                       <!-- Swiper -->
 
-                      <!-- Slider main container -->
-                      <div class="swiper-container1">
-                          <!-- Additional required wrapper -->
-                          <div class="swiper-wrapper1">
-                              <!-- Slides -->
-                              <div class="swiper-slide1">Slide 1</div>
-                            <div class="swiper-slide1">Slide 2</div>
-                            <div class="swiper-slide1">Slide 3</div>
-                          </div>
-                          <!-- If we need pagination -->
-                          <div class="swiper-pagination1"></div>
-                          
-                          <!-- If we need navigation buttons -->
-                          <div class="swiper-button-prev1"></div>
-                          <div class="swiper-button-next1"></div>
+                      <!-- Swiper -->
+                      <div class="swiper swiper-container2 mySwiper2" style="margin-top: 0px; max-height:510px;">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">Slide 1</div>
+                          <div class="swiper-slide">Slide 2</div>
+                          <div class="swiper-slide">Slide 3</div>
+                          <div class="swiper-slide">Slide 4</div>
+                          <div class="swiper-slide">Slide 5</div>
+                          <div class="swiper-slide">Slide 6</div>
+                          <div class="swiper-slide">Slide 7</div>
+                          <div class="swiper-slide">Slide 8</div>
+                          <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-button-next1" ></div>
+                        <div class="swiper-button-prev1"></div>
                       </div>
                     </div>
                   </div>
@@ -656,7 +656,7 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".swiper-container1", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -670,18 +670,10 @@
         },
       });
 
-      var menu = ["Slide 1", "Slide 2", "Slide 3"];
-      var mySwiper = new Swiper(".swiper-container1", {
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination1",
-          clickable: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + menu[index] + "</span>";
-          },
-        },
-
-        // Navigation arrows
+      var swiper2 = new Swiper(".swiper-container2", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
         navigation: {
           nextEl: ".swiper-button-next1",
           prevEl: ".swiper-button-prev1",
