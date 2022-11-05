@@ -606,7 +606,11 @@ text-decoration: none;
 border-radius: 2px;
 padding: 5px 45px;
 }
-
+/***************contact container styles*********************/
+/***************contact container styles*********************/
+/***************contact container styles*********************/
+/***************contact container styles*********************/
+/***************contact container styles*********************/
 
 
 /********footer container styles**********************/
@@ -938,7 +942,7 @@ padding: 5px 45px;
   .swiper__slide_content_dontainer {
     position: absolute;
     z-index: 20;
-    background-color: rgba(39, 48, 73, 0.48);
+    background-color: #2730497a;
     bottom: 8%;
     left: 9%;
     width: 84%;
