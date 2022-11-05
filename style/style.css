@@ -614,6 +614,7 @@ padding: 5px 45px;
 .contact__with_us_wrapper{
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 .contact__with_us_name {
   width: 100%;
@@ -669,7 +670,7 @@ padding: 5px 45px;
 
 .contact__with_us_data-numbers-p2 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 180%;
 }
@@ -682,7 +683,7 @@ padding: 5px 45px;
 
 .contact__with_us_data-p {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 180%;
 }
@@ -709,6 +710,7 @@ padding: 5px 45px;
 .contact__with_us_data-social_block{
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 25px;
 }
 .contact__with_us_data-social_block:first-child {
@@ -744,7 +746,7 @@ padding: 5px 45px;
   display: block;
   width: 49%;
   border: 1px solid #041332;
-  border-radius: 7px;
+  border-radius: 1px;
   font-size: 16px;
   padding: 18px 20px 18px 20px;
 }
@@ -790,7 +792,7 @@ padding: 5px 45px;
   width: 100%;
   height: 200px;
   border: 1px solid #041332;
-  border-radius: 7px;
+  border-radius: 1px;
   font-size: 16px;
   padding: 18px 20px 18px 20px;
 }
@@ -939,6 +941,49 @@ textarea:-ms-input-placeholder {
   .services__container_block {
     max-width: 1140px;
   }
+  .address_phone_block-wrapper {
+    width: 84%;
+  }
+  .phone__block {
+    width: 50%;
+  }
+  .address_block {
+    max-width: 40%;
+  }
+  .catalog__name_desc {
+    max-width: 84%;
+  }
+  .catalog__items__wrapper {
+    max-width: 84%;
+  }
+  .about_us__wrapper_wrap {
+    max-width: 84%;
+  }
+
+  .work_with_elements_wrapper {
+    max-width: 84%;
+  }
+  .work__element_desc::before {
+    display: none;
+  }
+  .make_order__wrapper-wrap {
+    max-width: 85%;
+  }
+  .contact__with_us_wrap_wrapper {
+    max-width: 85%;
+  }
+  .footer__content {
+    max-width: 84%;
+  }
+  .footer__content__image{
+    width: 28%;
+  }
+  .footer__content__image_block img {
+    width: 100%;
+  }
+  .footer__content__textname p{
+    font-size: 25px;
+  }
 }
 @media only screen and (max-width: 1368px) {
   .services__container_block {
@@ -980,6 +1025,9 @@ textarea:-ms-input-placeholder {
   }
   .converter__wrapper__block {
     width: 40%;
+  }
+  .address_block {
+    width: 29%;
   }
 }
 @media only screen and (max-width: 1285px) {
@@ -1086,6 +1134,114 @@ textarea:-ms-input-placeholder {
   .converter__wrapper__block{
     width: 80%;
   }
+  .catalog__desc {
+    margin-top: 15px;
+    max-width: 100%;
+  }
+  .about_us___wrapper {
+    margin-top: 320px;
+  }
+  .about_us__foto_desc_wrap {
+    flex-direction: column;
+  }
+  .about__us__photo {
+    height: 59vh;
+    width: 100%;
+  }
+  .about__us__text{
+    width: 100%;
+    margin-top: 20px;
+}
+.about__us__text-button{
+    text-align: center;
+}
+.make_order__name {
+    width: 62%;
+}
+.make_order__images{
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+}
+.make_order__image{
+    margin-top: 20px;
+}
+.contact__with_us_data{
+    flex-direction: column;
+    align-items: center;
+}
+.contact__with_us_data-numbers{
+    width: 100%;
+}
+.contact__with_us_data-adress{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact__with_us_data-social{
+    width: 100%;
+}
+.contact__with_us_data{
+    margin-top: 1rem;
+}
+.contact__form-info{
+    flex-direction: column;
+    margin-bottom: 0px;
+
+}
+.contact__form-info_input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact__form_name{
+    margin-bottom: 20px;
+}
+.submit__button__wrapper{
+    margin-top: 20px;
+}
+.work_with_elements_wrapper{
+  flex-direction: column;
+}
+.work__element{
+  max-width: 100%;
+  margin-top: 20px;
+}
+.footer__bestsellers__wrapper{
+  display: none;
+  visibility: hidden;
+}
+.catalog__item{
+  width: 150px;
+}
+.catalog_item_image{
+  width: 150px;
+  height: 150px;
+}
+.catalog_item_image-more{
+  font-size: 14px;
+}
+.catalog__wrapper{
+  padding-bottom: 0px;
+}
+.about_us___wrapper{
+  margin-top: 0px;
+}
+.promo__block{
+  height: 100vh;
+}
+.catalog__items__wrapper {
+  height: 100%;
+}
+.footer__content__wrapper{
+  flex-direction: column;
+}
+.footer__content__text{
+  margin-top: 25px;
+  width: 100%;
+}
+.footer__content__image{
+  width: 30%;
+}
 }
 @media only screen and (max-width: 620px){
   .converter__wrapper__block{
