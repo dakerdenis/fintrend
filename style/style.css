@@ -908,9 +908,11 @@ textarea:-ms-input-placeholder {
   text-decoration: none;
 }
 .footer__rights {
+  width: 91%;
   height: 40px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+
   align-items: center;
 }
 .footer__rights p {
