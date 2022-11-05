@@ -15,20 +15,20 @@
   display: block;
   width: 60px;
   height: 60px;
-  text-align: center;
-  background: -webkit-linear-gradient(45deg, #8769a9, #507cb3);
-  background: -o-linear-gradient(45deg, #8769a9, #507cb3);
-  background: linear-gradient(45deg, #8769a9, #507cb3);
-  color: #fff;
-  line-height: 50px;
+
   position: absolute;
+
+  transition: all 0.4s;
+
+
   border-radius: 50% 50%;
   bottom: 0px;
   right: 0px;
-  border: 5px solid #b2bedc;
+
   /* opacity: 0.3; */
   opacity: 1;
-  transition: all 0.4s;
+  text-align: center;
+
 }
 
 .floatingButton .fa {
@@ -59,7 +59,7 @@
 .floatingMenu {
   position: absolute;
   bottom: 60px;
-  right: 0px;
+  right: 7px;
   /* width: 200px; */
   display: none;
 }
@@ -73,12 +73,17 @@
 }
 
 .floatingMenu li a {
-  padding: 8px 15px;
-  display: inline-block; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
   background: #ccd7f5;
   color: #6077b0;
   border-radius: 5px;
-  overflow: hidden;
+
   white-space: nowrap;
   transition: all 0.4s;
   /* -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22);
@@ -90,4 +95,6 @@
 .floatingMenu li a:hover {
   margin-right: 10px;
   text-decoration: none;
+background-color: #273049;
+color: #fff;
 }
