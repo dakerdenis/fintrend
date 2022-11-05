@@ -36,6 +36,7 @@
   background-image: url('../imgs/arrow_forward.svg');
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 .swiper-button-prev1{
 
@@ -49,6 +50,7 @@
   background-image: url('../imgs/arrow_back.svg');
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 .swiper-slide2{
   width: 100%;
