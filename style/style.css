@@ -651,7 +651,7 @@ padding: 5px 45px;
   margin-top: 5rem;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .contact__with_us_data-numbers {
@@ -690,6 +690,8 @@ padding: 5px 45px;
 
 .contact__with_us_data-social {
   width: 30%;
+  display: none;
+  visibility: hidden;
 }
 
 .contact__with_us_data-social-name {
@@ -724,6 +726,8 @@ padding: 5px 45px;
 
 .contact__with_us_form-form {
   width: 100%;
+  display: none;
+  visibility: hidden;
 }
 
 .contact__form_name {
@@ -1192,6 +1196,8 @@ textarea:-ms-input-placeholder {
 }
 .contact__with_us_data-social{
     width: 100%;
+    display: none;
+    visibility: hidden;
 }
 .contact__with_us_data{
     margin-top: 1rem;
