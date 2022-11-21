@@ -328,6 +328,7 @@ h6 {
   line-height: 125%;
   width: 100%;
   text-align: center;
+  text-transform: uppercase;
 }
 .element__money__date {
   width: 100%;
@@ -356,11 +357,18 @@ h6 {
   line-height: 125%;
 }
 .element__line {
-  margin-top: 3em;
+  margin-top: 0.4em;
   border: 1px solid #dbd7d7;
   width: 100%;
 }
 .services__desc__block {
+}
+.services__desc__block__desc{
+  font-size: 20px;
+  margin-top: 0.5em;
+}
+.services__desc__block__additional{
+  margin-top: 0.5em;
 }
 .services__desc__element {
   display: flex;
