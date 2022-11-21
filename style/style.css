@@ -305,10 +305,17 @@ h6 {
   margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .services__element__block {
   width: 20%;
   padding: 0 15px 30px;
+}
+.services__element__block:nth-child(4){
+  width: 30%;
+}
+.services__element__block:nth-child(4) .services__desc__element {
+
 }
 .services__element {
   width: 100%;
@@ -329,6 +336,7 @@ h6 {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  height: 125px;
 }
 .element__money__date {
   width: 100%;
