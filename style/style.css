@@ -334,6 +334,7 @@ h6 {
   width: 100%;
   display: flex;
   align-items: center;
+  height: 65px;
 }
 .services__money {
   display: flex;
@@ -369,6 +370,9 @@ h6 {
 }
 .services__desc__block__additional{
   margin-top: 0.5em;
+}
+.services__desc__block__additional p{
+  margin-top: 0.4em;
 }
 .services__desc__element {
   display: flex;
