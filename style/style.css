@@ -308,8 +308,8 @@ h6 {
   justify-content: space-evenly;
 }
 .services__element__block {
-  width: 36%;
-  padding: 0 60px 35px;
+  width: 25%;
+  padding: 0 15px 30px;
 
 }
 
@@ -318,7 +318,7 @@ h6 {
   background-color: rgba(255, 255, 255, 1);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 20px;
-  height: 50vh;
+  height: 49vh;
 }
 .element__wrapper {
   font-family: "Oswald";
@@ -329,7 +329,7 @@ h6 {
   color: rgba(39, 48, 73, 1);
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 125%;
   width: 100%;
   text-align: center;
@@ -982,6 +982,23 @@ textarea:-ms-input-placeholder {
   .services__container_block {
     max-width: 1320px;
   }
+  .services__element__block {
+    width: 36%;
+  }
+  .services__element {
+    height: 52vh;
+  }
+  .services__element__block:nth-child(4) .services__desc__element__text{
+    font-size: 14.5px;
+  }
+  .services__element__block:nth-child(4) .services__desc__element__image img{
+    width: 100%;
+  }
+  .services__element__block:nth-child(4) .services__desc__element__image {
+    width: 20px;
+    height: 20px;
+    
+  }
 }
 @media only screen and (max-width: 1580px) {
   .services__container_block {
@@ -996,7 +1013,7 @@ textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 1450px) {
   .services__container_block {
-    max-width: 1140px;
+    max-width: 1200px;
   }
   .address_phone_block-wrapper {
     width: 84%;
@@ -1049,6 +1066,9 @@ textarea:-ms-input-placeholder {
     font-size: 31px;
     line-height: 39px;
   }
+  .services__element__block{
+    width: 38%;
+  }
 }
 @media only screen and (max-width: 1368px) {
   .services__container_block {
@@ -1096,6 +1116,36 @@ textarea:-ms-input-placeholder {
   }
   .swiper__slide_content_dontainer {
     bottom: 8%;
+  }
+  .services__element__block {
+    width: 45%;
+  }
+  .element__line{
+    margin-top: 0em;
+  }
+  .element__name {
+    font-size: 40px;
+  }
+  .element__money__date {
+    margin-top: 4px;
+  }
+  .services__desc__block{
+    height: 66%;
+  }
+  .services__element {
+    height: 54vh;
+  }
+
+  .services__element__block:nth-child(4) .services__desc__element__text{
+    font-size: 13.5px;
+  }
+  .services__element__block:nth-child(4) .services__desc__element__image img{
+    width: 100%;
+  }
+  .services__element__block:nth-child(4) .services__desc__element__image {
+    width: 17px;
+    height: 17px;
+    
   }
 }
 @media only screen and (max-width: 1285px) {
