@@ -1341,7 +1341,7 @@ textarea:-ms-input-placeholder {
   width: 30%;
 }
 .services__element{
-  height: 78vh;
+  height: 62vh;
 }
 .auto__kredit{
   height: 13px;
@@ -1376,6 +1376,22 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 620px){
   .converter__wrapper__block{
     width: 95%;
+  }
+  .services__element{
+    height: 56vh;
+  }
+  .services__element__block{
+    width: 75%;
+  }
+  .about__element_block{
+    padding-top: 25px;
+  }
+  .about_wrapper{
+    margin-top: 2em;
+  }
+  .swpr_sld_content_blockname {
+    font-size: 40px;
+    line-height: 60px;
   }
 }
 @media only screen and (max-width: 427px) {
