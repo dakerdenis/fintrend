@@ -1393,6 +1393,13 @@ textarea:-ms-input-placeholder {
     font-size: 40px;
     line-height: 60px;
   }
+  .swpr_sld_content_desc{
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .auto__kredit img {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 427px) {
   .block__content__services {
@@ -1495,6 +1502,17 @@ textarea:-ms-input-placeholder {
   }
   .converter__wrapper__block{
     width: 100%;
+  }
+  .about__image_block {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .about__image_block img {
+    height: 100%;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 376px) {
