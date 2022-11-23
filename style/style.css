@@ -1514,10 +1514,27 @@ textarea:-ms-input-placeholder {
     height: 100%;
     object-fit: cover;
   }
+  .converter__wrapper__name {
+    font-size: 44px;
+    line-height: 107%;
+  }
+  .about__main_name{
+    font-size: 44px;
+  }
+  .footer__content__image {
+    width: 60%;
+  }
+  .about_wrapper {
+    margin-top: 0.5em;
+  }
+  .services__desc__block__additional p {
+    font-size: 13px;
+    font-weight: 300;
+  }
 }
 @media only screen and (max-width: 376px) {
   .services__element__block {
-    width: 50%;
+    width: 95%;
   }
   .services__desc__element__image {
   }
@@ -1542,5 +1559,11 @@ textarea:-ms-input-placeholder {
   }
   .services__element__block {
     padding: 0 6px 15px;
+  }
+  .services__element {
+    height: 51vh;
+  }
+  .services__element_auto{
+    height: 61vh;
   }
 }
