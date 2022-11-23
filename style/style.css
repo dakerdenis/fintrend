@@ -1529,7 +1529,10 @@ textarea:-ms-input-placeholder {
   }
   .services__desc__block__additional p {
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 400;
+  }
+  .about__element__name {
+    font-size: 27px;
   }
 }
 @media only screen and (max-width: 376px) {
@@ -1565,5 +1568,8 @@ textarea:-ms-input-placeholder {
   }
   .services__element_auto{
     height: 61vh;
+  }
+  .header__container {
+    height: 89px;
   }
 }
