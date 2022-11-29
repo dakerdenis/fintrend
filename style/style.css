@@ -987,6 +987,14 @@ textarea:-ms-input-placeholder {
   display: none;
   visibility: hidden;
 }
+.image__slider__pc{
+  display: initial;
+  visibility: visible;
+}
+.image__slider__mobile{
+  display: none;
+  visibility: hidden;
+}
 @media only screen and (max-width: 1690px) {
   .services__container_block {
     max-width: 1320px;
@@ -1174,6 +1182,14 @@ textarea:-ms-input-placeholder {
   }
 }
 @media only screen and (max-width: 769px) {
+  .image__slider__pc{
+    display: none;
+    visibility: hidden;
+  }
+  .image__slider__mobile{
+    display: initial;
+    visibility: visible;
+  }
   .services__container_block {
     max-width: 450px;
   }
