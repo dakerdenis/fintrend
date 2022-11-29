@@ -245,10 +245,19 @@ h6 {
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 .swiper__slide__contentblock img {
   height: 100%;
   z-index: 9;
+}
+.swiper__slide__contentblock:nth-child(1) img {
+  object-fit: cover;
+  width: 100%;
+}
+.swiper__slide__contentblock:nth-child(2) img {
+  object-fit: cover;
+  width: 100%;
 }
 .swiper__slide_content_dontainer {
   position: absolute;
@@ -1405,6 +1414,9 @@ textarea:-ms-input-placeholder {
   }
 }
 @media only screen and (max-width: 427px) {
+  .main__slider_block{
+    min-height: 88vh;
+  }
   .block__content__services {
     width: 100%;
   }
@@ -1567,10 +1579,10 @@ textarea:-ms-input-placeholder {
     padding: 0 6px 15px;
   }
   .services__element {
-    height: 51vh;
+
   }
   .services__element_auto{
-    height: 61vh;
+
   }
   .header__container {
     height: 89px;
