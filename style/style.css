@@ -1245,7 +1245,7 @@ textarea:-ms-input-placeholder {
   .services__element__block {
   }
   .about__element_block {
-    width: 48%;
+    width: 70%;
   }  
   .about_wrapper{
     justify-content: space-evenly;
@@ -1411,9 +1411,11 @@ textarea:-ms-input-placeholder {
   }
   .services__element__block{
     width: 75%;
+    
   }
   .about__element_block{
     padding-top: 25px;
+    width: 70%;
   }
   .about_wrapper{
     margin-top: 2em;
@@ -1428,6 +1430,9 @@ textarea:-ms-input-placeholder {
   }
   .auto__kredit img {
     width: 100%;
+  }
+  .about__element_block {
+    margin-top: 3em;
   }
 }
 @media only screen and (max-width: 427px) {
