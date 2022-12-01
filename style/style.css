@@ -1074,6 +1074,12 @@ textarea:-ms-input-placeholder {
   .about__sliderelement__desc{
     font-size: 16.5px;
   }
+  .services__element {
+    height: 490px;
+  }
+  .about__element_block {
+    width: 45%;
+  }
 }
 @media only screen and (max-width: 1450px) {
   .services__container_block {
@@ -1262,7 +1268,7 @@ textarea:-ms-input-placeholder {
   .services__element__block {
   }
   .about__element_block {
-    width: 45%;
+    width: 23%;
   }  
   .about_wrapper{
     justify-content: space-evenly;
@@ -1270,13 +1276,19 @@ textarea:-ms-input-placeholder {
   .services__desc__element__text {
     font-size: 15px;
   }
+  .about__element__desc {
+    line-height: 23px;
+  }
+  .about__element__wrapper {
+    height: 465px;
+  }
 }
 @media only screen and (max-width: 1199.98px) {
   .services__container_block {
-    max-width: 950px;
+    max-width: 1020px;
   }
   .element__name {
-    font-size: 35px;
+    font-size: 27px;
   }
   .services__desc__element__text {
     font-size: 17px;
@@ -1294,6 +1306,12 @@ textarea:-ms-input-placeholder {
   }
   .footer__content__textelement a {
     font-size: 19.5px;
+  }
+  .services__element__block {
+    width: 32%;
+  }
+  .header__nav__element {
+    margin-right: 40px;
   }
 }
 @media only screen and (max-width: 769px) {
@@ -1359,7 +1377,7 @@ textarea:-ms-input-placeholder {
   .services__element__block {
   }
   .about__element_block {
-    width: 70%;
+    width: 45%;
   }  
   .about_wrapper{
     justify-content: space-evenly;
@@ -1481,7 +1499,7 @@ textarea:-ms-input-placeholder {
   width: 30%;
 }
 .services__element{
-  height: 62vh;
+  height: 500px;
 }
 .auto__kredit{
   height: 13px;
@@ -1511,6 +1529,14 @@ textarea:-ms-input-placeholder {
 }
 .services__money_number {
   font-size: 25px;
+}
+.about__element__wrapper {
+  min-height: 440px;
+  height: 440px
+}
+.footer__content__text{
+  display: none;
+  visibility: hidden;
 }
 }
 @media only screen and (max-width: 620px){
@@ -1547,6 +1573,12 @@ textarea:-ms-input-placeholder {
   }
   .about__element_block {
     margin-top: 3em;
+  }
+  .services__desc__block {
+    height: 66%
+  }
+  .services__element_auto {
+    height: 430px;
   }
 }
 @media only screen and (max-width: 427px) {
