@@ -996,7 +996,7 @@ textarea:-ms-input-placeholder {
   display: none;
   visibility: hidden;
 }
-@media only screen and (max-width: 1690px) {
+@media only screen and (max-width: 1700px) {
   .services__container_block {
     max-width: 1320px;
   }
@@ -1077,27 +1077,25 @@ textarea:-ms-input-placeholder {
   .services__element__block{
     width: 38%;
   }
-  .about__element__line{
-    display: none;
-    visibility: hidden;
+  .about_wrapper{
+    justify-content: space-between;
   }
   .about__element__desc {
-    font-size: 17px;
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  .about__sliderelement__desc{
+    font-size: 19px;
   }
   .about__element__wrapper{
+    min-height: 550px;
     justify-content: start;
-    padding-bottom: 15px;
-    height: 520px;
-    border-bottom: 2px solid #041332;
   }
-  .about__element__wrapper_content{
-    
+  .about__element__line{
+    display: none;
   }
-  .about__sliderelement__desc {
-    font-size: 17px;
-  }
-  .services__element{
-    height: 510px;
+  .about__element{
+    border-bottom: ;
   }
 }
 @media only screen and (max-width: 1368px) {
@@ -1163,7 +1161,7 @@ textarea:-ms-input-placeholder {
     height: 66%;
   }
   .services__element {
-    height: 510px;
+    height: 64vh;
   }
 }
 @media only screen and (max-width: 1285px) {
@@ -1203,14 +1201,8 @@ textarea:-ms-input-placeholder {
   .footer__content__textelement a {
     font-size: 19.5px;
   }
-  .header__nav__element {
-    margin-right:  31px;
-  }
-  .header__wrapper{
-    justify-content: space-evenly;
-  }
 }
-@media only screen and (max-width: 801px) {
+@media only screen and (max-width: 769px) {
   .image__slider__pc{
     display: none;
     visibility: hidden;
@@ -1426,19 +1418,6 @@ textarea:-ms-input-placeholder {
 .services__money_number {
   font-size: 25px;
 }
-.swpr_sld_content_blockname {
-  font-size: 40px;
-  line-height: 55px;
-}
-.services__desc__block__additional p {
-  font-size: 12.2px;
-}
-.services__element{
-  height: 420px;
-}
-.services__desc__block__desc{
-  font-size: 16px;
-}
 }
 @media only screen and (max-width: 620px){
   .converter__wrapper__block{
@@ -1612,13 +1591,6 @@ textarea:-ms-input-placeholder {
   }
   .about__element__name {
     font-size: 27px;
-  }
-  .about__element__wrapper {
-    height: 465px;
-  }
-  .contact__with_us_desc{
-    font-size: 16px;
-    line-height: 26px;
   }
 }
 @media only screen and (max-width: 376px) {
