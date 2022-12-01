@@ -1538,6 +1538,9 @@ textarea:-ms-input-placeholder {
   display: none;
   visibility: hidden;
 }
+.swiper-container23{
+  height: 100%;
+}
 }
 @media only screen and (max-width: 620px){
   .converter__wrapper__block{
@@ -1579,6 +1582,10 @@ textarea:-ms-input-placeholder {
   }
   .services__element_auto {
     height: 430px;
+  }
+  .about__element__wrapper{
+    min-height: 395px;
+    height: 395px;
   }
 }
 @media only screen and (max-width: 427px) {
@@ -1718,6 +1725,7 @@ textarea:-ms-input-placeholder {
   .about__element__name {
     font-size: 27px;
   }
+
 }
 @media only screen and (max-width: 376px) {
   .services__element__block {
@@ -1751,7 +1759,7 @@ textarea:-ms-input-placeholder {
 
   }
   .services__element_auto{
-
+    height: 475px
   }
   .header__container {
     height: 89px;
