@@ -1203,8 +1203,14 @@ textarea:-ms-input-placeholder {
   .footer__content__textelement a {
     font-size: 19.5px;
   }
+  .header__nav__element {
+    margin-right:  31px;
+  }
+  .header__wrapper{
+    justify-content: space-evenly;
+  }
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 801px) {
   .image__slider__pc{
     display: none;
     visibility: hidden;
@@ -1423,6 +1429,15 @@ textarea:-ms-input-placeholder {
 .swpr_sld_content_blockname {
   font-size: 40px;
   line-height: 55px;
+}
+.services__desc__block__additional p {
+  font-size: 12.2px;
+}
+.services__element{
+  height: 420px;
+}
+.services__desc__block__desc{
+  font-size: 16px;
 }
 }
 @media only screen and (max-width: 620px){
