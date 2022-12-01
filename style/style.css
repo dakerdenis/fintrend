@@ -1223,10 +1223,41 @@ textarea:-ms-input-placeholder {
   .services__money__desc {
     font-size: 15px;
   }
+  .about__element_block {
+    width: 23%;
+  }
+  .about__element__desc {
+    font-size: 15px;
+  }
+  .about__element__name {
+    font-size: 28px;
+  }
+  .about__sliderelement__name{
+    font-size: 28px;
+  }
+  .about__sliderelement__desc{
+    font-size: 15px;
+  }
+  .about__element__wrapper {
+    min-height: 460px;
+    height: 505px;
+  }
+  .contact__with_us_desc {
+    font-size: 16px;
+  }
+  .about__image_block {
+    max-height: 200px;
+  }
+  .about__image_block img {
+    height: 100%;
+  }
+  .about__sliderelement__block img {
+    height: 200px;
+  }
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
-    max-width: 1020px;
+    max-width: 1200px;
   }
   .services__element__block {
   }
@@ -1235,6 +1266,9 @@ textarea:-ms-input-placeholder {
   }  
   .about_wrapper{
     justify-content: space-evenly;
+  }
+  .services__desc__element__text {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 1199.98px) {
