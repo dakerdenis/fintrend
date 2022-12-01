@@ -1613,6 +1613,13 @@ textarea:-ms-input-placeholder {
   .about__element__name {
     font-size: 27px;
   }
+  .about__element__wrapper {
+    height: 465px;
+  }
+  .contact__with_us_desc{
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 @media only screen and (max-width: 376px) {
   .services__element__block {
