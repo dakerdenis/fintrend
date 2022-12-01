@@ -1077,6 +1077,28 @@ textarea:-ms-input-placeholder {
   .services__element__block{
     width: 38%;
   }
+  .about__element__line{
+    display: none;
+    visibility: hidden;
+  }
+  .about__element__desc {
+    font-size: 17px;
+  }
+  .about__element__wrapper{
+    justify-content: start;
+    padding-bottom: 15px;
+    height: 520px;
+    border-bottom: 2px solid #041332;
+  }
+  .about__element__wrapper_content{
+    
+  }
+  .about__sliderelement__desc {
+    font-size: 17px;
+  }
+  .services__element{
+    height: 510px;
+  }
 }
 @media only screen and (max-width: 1368px) {
   .services__container_block {
@@ -1141,7 +1163,7 @@ textarea:-ms-input-placeholder {
     height: 66%;
   }
   .services__element {
-    height: 54vh;
+    height: 510px;
   }
 }
 @media only screen and (max-width: 1285px) {
@@ -1397,6 +1419,10 @@ textarea:-ms-input-placeholder {
 }
 .services__money_number {
   font-size: 25px;
+}
+.swpr_sld_content_blockname {
+  font-size: 40px;
+  line-height: 55px;
 }
 }
 @media only screen and (max-width: 620px){
