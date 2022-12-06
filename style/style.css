@@ -1725,7 +1725,15 @@ textarea:-ms-input-placeholder {
   .about__element__name {
     font-size: 27px;
   }
-
+  .swiper__slide__contentblock_girl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper__slide__contentblock_girl .image__slider__mobile{
+    height: 100%;
+    width: auto;
+  }
 }
 @media only screen and (max-width: 376px) {
   .services__element__block {
