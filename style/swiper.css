@@ -66,14 +66,4 @@ flex-direction: column;
   .swiper{
     height: calc(100vh - 90px);
   }
-  .swiper__slide__contentblock:nth-child(2) img{
-    height: 100%;
-    position: absolute;
-    left: -120%;
-  }
-  .swiper__slide__contentblock{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
