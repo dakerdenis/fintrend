@@ -2,5 +2,11 @@
 .services__desc__block_auto-en .services__desc__element__text{
     font-size: 15px;
 }
-
+.about__element__desc{
+    min-height: 168px;
+    font-size: 16px;
+}
+.about__sliderelement__desc{
+    font-size: 16px;
+}
 @media only screen and (max-width: 1200px) {}
