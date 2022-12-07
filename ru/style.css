@@ -1,0 +1,22 @@
+
+    .element__name{
+        line-height: 105%;
+        font-size: 30px;
+    }
+    .about__element__desc{
+        min-height: 168px;
+        font-size: 18px;
+    }
+    .contact__with_us_desc{
+        display: none;
+        visibility: hidden;
+    }
+@media only screen and (max-width: 1610px) {}
+@media only screen and (max-width: 1450px) {}
+@media only screen and (max-width: 1340px) {}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 780px) {}
+@media only screen and (max-width: 620px) {}
+@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 380px) {}
+@media only screen and (max-width: 330px) {}
