@@ -43,7 +43,20 @@
 }
 @media only screen and (max-width: 1200px) {}
 @media only screen and (max-width: 780px) {}
-@media only screen and (max-width: 620px) {}
-@media only screen and (max-width: 480px) {}
-@media only screen and (max-width: 380px) {}
+@media only screen and (max-width: 600px) {
+    .services__element__block {
+        width: 86%;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+}
+@media only screen and (max-width: 380px) {
+    .services__element__block {
+        width: 90%;
+    }
+    .element__name{
+        font-size: 22px;
+    }
+}
 @media only screen and (max-width: 330px) {}
