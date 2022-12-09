@@ -666,6 +666,36 @@ text-decoration: none;
 border-radius: 2px;
 padding: 5px 45px;
 }
+/*****************about files page************************************/
+/*****************about files page************************************/
+/*****************about files page************************************/
+/*****************about files page************************************/
+
+.about__files__container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+.about__files__wrapper {
+}
+.about__files__element {
+}
+.about__files__element__folder__icon {
+}
+.folder {
+}
+.folder__back {
+}
+.paper {
+}
+.folder__front {
+}
+.right {
+}
+.about__files__element__desc {
+}
+.about__files__download__button {
+}
 /***************contact container styles*********************/
 /***************contact container styles*********************/
 /***************contact container styles*********************/
