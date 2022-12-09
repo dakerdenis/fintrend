@@ -591,10 +591,10 @@ h6 {
   margin-top: 20px;
 }
 .about__files__link a {
-  color: #dbd7d7;
+  color: #fafafa;
   background-color: #273049;
-  border-radius: 25px;
-  padding: 8px 30px;
+  border-radius: 1px;
+  padding: 8px 32px;
 }
 .about__element__line {
   width: 100%;
