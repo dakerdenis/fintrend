@@ -741,10 +741,12 @@ h6 {
 /***************contact container styles*********************/
 /***************contact container styles*********************/
 /***************contact container styles*********************/
+
 .contact__with_us_wrapper {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 40px;
+  margin-top: 6em;
 }
 .contact__with_us_name {
   width: 100%;
@@ -1240,7 +1242,7 @@ textarea:-ms-input-placeholder {
     display: none;
   }
   .about__element {
-    border-bottom: ;
+
   }
 }
 @media only screen and (max-width: 1368px) {
