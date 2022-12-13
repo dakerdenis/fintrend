@@ -741,7 +741,10 @@ h6 {
 /***************contact container styles*********************/
 /***************contact container styles*********************/
 /***************contact container styles*********************/
-
+.block__content__contacts{
+  display: none;
+  visibility: hidden;
+}
 .contact__with_us_wrapper {
   width: 85%;
   margin: 0 auto;
@@ -991,10 +994,25 @@ textarea:-ms-input-placeholder {
   margin: 0 auto;
 }
 .footer__content__wrapper {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 20px 0px 30px 0px;
+}
+.footer__content__content {
+  width: 30%;
+  color: #fafafa;
+}
+.footer__text__name {
+  width: 100%;
+
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.footer__text__text p{
+  margin-top: 1em;
+  font-size: 20px;
 }
 /**? ************************/
 .footer__content__image {
