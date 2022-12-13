@@ -515,6 +515,7 @@ h6 {
 /********converter container styles**********************/
 
 .converter__wrapper {
+  
   width: 85%;
   margin: 0 auto;
   text-align: center;
@@ -524,6 +525,8 @@ h6 {
   align-items: center;
   margin-top: 3em;
   margin-bottom: 3em;
+  display: none;
+  visibility: hidden;
 }
 .converter__wrapper__name {
   width: 100%;
