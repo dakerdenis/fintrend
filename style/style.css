@@ -352,10 +352,12 @@ h6 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 20px;
   height: 49vh;
+  transition: ease-in-out 0.2s;
 }
 .element__wrapper {
   font-family: "Oswald";
   height: 100%;
+  transition: ease-in-out 0.2s;
 }
 .element__name {
   font-family: "Oswald";
@@ -367,6 +369,8 @@ h6 {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+
+  transition: ease-in-out 0.2s;
 }
 .element__money__date {
   width: 100%;
@@ -376,6 +380,7 @@ h6 {
   justify-content: space-around;
   margin-top: 1em;
   margin-bottom: 1em;
+  transition: ease-in-out 0.2s;
 }
 .services__date {
   color: rgba(181, 175, 175, 1);
@@ -383,11 +388,14 @@ h6 {
   font-weight: 700;
   font-size: 36px;
   line-height: 125%;
+  transition: ease-in-out 0.2s;
+  
 }
 .services__money {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: ease-in-out 0.2s;
 }
 .services__money__desc {
   color: rgba(39, 48, 73, 1);
@@ -395,6 +403,7 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 125%;
+  transition: ease-in-out 0.2s;
 }
 .services__money_number {
   color: rgba(181, 175, 175, 1);
@@ -402,21 +411,25 @@ h6 {
   font-weight: 700;
   font-size: 36px;
   line-height: 125%;
+  transition: ease-in-out 0.2s;
 }
 .element__line {
   margin-top: 0.4em;
   border: 1px solid #dbd7d7;
   width: 100%;
+  transition: ease-in-out 0.2s;
 }
 .services__desc__block {
   height: 68%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: ease-in-out 0.2s;
 }
 .services__desc__block__desc {
   font-size: 20px;
   margin-top: 0.5em;
+  transition: ease-in-out 0.2s;
 }
 .services__desc__block__additional {
 }
@@ -444,6 +457,7 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 125%;
+  transition: ease-in-out 0.2s;
 }
 .element__okw {
   display: none;
