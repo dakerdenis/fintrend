@@ -163,6 +163,9 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+.header__image a img {
+  width: 100%;
+}
 .header__nav_wrapper {
   display: flex;
   justify-content: space-between;
@@ -1510,8 +1513,8 @@ textarea:-ms-input-placeholder {
   .header__image a {
     width: 78%;
   }
-  .header__image img {
-    width: 92%;
+  .header__image a img {
+      width: 100%;
   }
   .services__container_block {
     max-width: 1020px;
