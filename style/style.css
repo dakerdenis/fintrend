@@ -1055,9 +1055,22 @@ textarea:-ms-input-placeholder {
   font-size: 28px;
   margin-bottom: 20px;
 }
-.footer__text__text p{
+.footer__text__text{
+  font-size: 17px;
+}
+.footer__text__text div {
   margin-top: 1em;
-  font-size: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.footer__desc{
+  font-size: 17px;
+  width: 10%;
+}
+.footer__number{
+  width: 90%;
+  font-size: 17px;
 }
 /**? ************************/
 .footer__content__image {
