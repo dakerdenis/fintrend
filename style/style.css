@@ -1425,6 +1425,9 @@ textarea:-ms-input-placeholder {
   .about__sliderelement__block img {
     height: 200px;
   }
+  .header__image a img{
+    height: 70%;
+  }
 }
 @media only screen and (max-width: 1285px) {
   .services__container_block {
