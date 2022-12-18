@@ -1824,7 +1824,7 @@ textarea:-ms-input-placeholder {
   /**************************/
   .swpr_sld_content_blockname {
     padding-left: 25px;
-    border-left: 2px solid rgba(106, 128, 207, 1);
+
     font-family: "Oswald";
     font-style: normal;
     font-weight: 500;
@@ -1832,8 +1832,7 @@ textarea:-ms-input-placeholder {
     line-height: 38px;
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-top: 15px;
+
   }
   .swpr_sld_content_desc {
     color: rgba(255, 255, 255, 1);
@@ -1845,8 +1844,7 @@ textarea:-ms-input-placeholder {
   .swiper__slide_content_dontainer {
     position: absolute;
     z-index: 20;
-    background-color: #2730497a;
-    bottom: 8%;
+    bottom: 25%;
     left: 9%;
     width: 84%;
     padding: 18px;
@@ -1912,6 +1910,9 @@ textarea:-ms-input-placeholder {
   }
   .footer__content {
     width: 100%;
+  }
+  .header__image a img {
+    height: 50%;
   }
 }
 @media only screen and (max-width: 376px) {
