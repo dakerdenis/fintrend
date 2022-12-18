@@ -98,3 +98,10 @@
 background-color: #273049;
 color: #fff;
 }
+
+@media only screen and (max-width: 376px) {
+  .floatingButtonWrap{
+    bottom: 20px;
+    right: 20px;
+  }
+}
