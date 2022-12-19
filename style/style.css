@@ -292,11 +292,11 @@ h6 {
 }
 .swiper__slide_content_dontainer {
   position: absolute;
-
+  background: rgba(39, 48, 73, 0.48);
   z-index: 20;
 
   bottom: 25%;
-
+  left: 15%;
 
 
 
@@ -304,7 +304,7 @@ h6 {
 }
 .swpr_sld_content_blockname {
   padding-left: 25px;
-
+  border-left: 3px solid rgba(106, 128, 207, 1);
   font-family: "Oswald";
   font-style: normal;
   font-weight: 500;
