@@ -1,7 +1,7 @@
 
     .element__name{
-        line-height: 105%;
-        font-size: 30px;
+        line-height: 107%;
+        font-size: 37px;
     }
     .about__element__desc{
         min-height: 168px;
@@ -12,23 +12,23 @@
         visibility: hidden;
     }
     .services__money_number {
-        font-size: 25px;
+        font-size: 22px;
     }
 @media only screen and (max-width: 1700px) {
     .services__money_number {
-        font-size: 20px;
+        font-size: 17px;
     }
     .services__container_block {
         max-width: 1500px;
     }
     .element__name{
-        font-size: 24px;
+        font-size: 31px;
     }
 }
 @media only screen and (max-width: 1450px) {}
 @media only screen and (max-width: 1380px) {
     .element__name {
-        font-size: 20px;
+        font-size: 30px;
     }
     .services__money__desc p{
         font-size: 14px;

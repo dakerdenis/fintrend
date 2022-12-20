@@ -314,6 +314,7 @@ h6 {
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 15px;
+  text-align: left;
 }
 .swpr_sld_content_blockname span {
   color: rgba(106, 128, 207, 1);
@@ -466,6 +467,7 @@ h6 {
   font-size: 18px;
   line-height: 125%;
   transition: ease-in-out 0.2s;
+  width: 90%;
 }
 .element__okw {
   display: none;
@@ -1162,7 +1164,7 @@ textarea:-ms-input-placeholder {
   display: none;
   visibility: hidden;
 }
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1720px) {
   .services__container_block {
     max-width: 1420px;
   }
@@ -1176,7 +1178,7 @@ textarea:-ms-input-placeholder {
     height: 52vh;
   }
   .element__name {
-    font-size: 30px;
+    font-size: 25px;
   }
   .services__money_number {
     font-size: 25px;
@@ -1201,6 +1203,12 @@ textarea:-ms-input-placeholder {
   }
   .about__element {
     border-bottom: 2px solid #041332;
+  }
+  .services__money_number {
+    font-size: 19px;
+  }
+  .element__name{
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 1580px) {
@@ -1687,11 +1695,11 @@ textarea:-ms-input-placeholder {
   .services__desc__block_auto .services__desc__element__text {
     font-size: 14px;
   }
-  .services__desc__block_auto .services__desc__element__image {
+ .services__desc__element__image {
     width: 14px;
     height: 14px;
   }
-  .services__desc__block_auto .services__desc__element__image img {
+ .services__desc__element__image img {
     height: 100%;
   }
   .services__desc__block_auto .services__money__desc p {
