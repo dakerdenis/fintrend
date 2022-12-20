@@ -11,6 +11,9 @@
         display: none;
         visibility: hidden;
     }
+    .services__money_number {
+        font-size: 25px;
+    }
 @media only screen and (max-width: 1700px) {
     .services__money_number {
         font-size: 20px;
