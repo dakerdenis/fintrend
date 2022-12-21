@@ -1155,7 +1155,7 @@ textarea:-ms-input-placeholder {
 .footer__content__social__wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100%;
   
 }
