@@ -1770,6 +1770,9 @@ textarea:-ms-input-placeholder {
     height: 100%;
     width: initial;
   }
+  .footer__content__wrapper{
+    padding-top: 35px;
+  }
 }
 @media only screen and (max-width: 620px) {
   .converter__wrapper__block {
