@@ -1085,26 +1085,50 @@ textarea:-ms-input-placeholder {
   background-color: brown;
 }
 .footer__content__logo {
-  width: 20%;
-
+  width: 15%;
+  
   background-color: red;
+}
+.footer__content__logo img {
+  width: 50%;
 }
 .footer__content__contact {
-  width: 55%;
+  width: 45%;
   background-color: red;
+
 }
 .footer__content__contact__wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .footer__contact__element_wrapper {
+  width: 100%;
+  height: 45%;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
 }
 .footer__contact__element {
+  width: 45%;
+  background-color: aquamarine;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 .footer__contact__element__img {
+  width: 30%;
+  background-color: cornflowerblue;
+  height: 70px;
 }
 .footer__contact__element__data {
+  width: 60%;
 }
 .footer__content__social {
-  width: 20%;
+  width: 15%;
   background-color: red;
 }
 .footer__content__social__wrapper {
