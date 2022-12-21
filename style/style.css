@@ -1045,96 +1045,7 @@ textarea:-ms-input-placeholder {
   width: 95%;
   margin: 0 auto;
 }
-.footer__content__wrapper {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0px 30px 0px;
-}
-.footer__content__content {
-  width: 30%;
-  color: #fafafa;
-}
-.footer__text__name {
-  width: 100%;
 
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-.footer__text__text{
-  font-size: 17px;
-}
-.footer__text__text div {
-  margin-top: 1em;
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-}
-.footer__desc{
-  font-size: 17px;
-  width: 10%;
-}
-.footer__number{
-  width: 90%;
-  font-size: 17px;
-}
-/**? ************************/
-.footer__content__image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-.footer__content__image img {
-  width: 90%;
-}
-.footer__content__image_block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-/**? ************************/
-.footer__content__text {
-  width: 22%;
-
-  display: flex;
-  align-items: flex-end;
-}
-.footer__content__textwrapper {
-}
-.footer__content__textname {
-}
-.footer__content__textname p {
-  color: rgba(73, 98, 188, 1);
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 45.7%;
-  /* or 15px */
-
-  text-transform: uppercase;
-}
-.footer__line {
-  background-color: rgba(73, 98, 188, 1);
-  height: 2px;
-  width: 60%;
-  margin-top: 1.3em;
-}
-.footer__content__textelement {
-  margin-top: 5.5em;
-}
-.footer__content__textelement a {
-  display: block;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 35%;
-  margin-top: 28px;
-  text-decoration: none;
-}
 .footer__rights {
   width: 91%;
   height: 40px;
@@ -1163,6 +1074,42 @@ textarea:-ms-input-placeholder {
 .image__slider__mobile {
   display: none;
   visibility: hidden;
+}
+
+.footer__content__wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+  background-color: brown;
+}
+.footer__content__logo {
+  width: 20%;
+
+  background-color: red;
+}
+.footer__content__contact {
+  width: 55%;
+  background-color: red;
+}
+.footer__content__contact__wrapper {
+}
+.footer__contact__element_wrapper {
+}
+.footer__contact__element {
+}
+.footer__contact__element__img {
+}
+.footer__contact__element__data {
+}
+.footer__content__social {
+  width: 20%;
+  background-color: red;
+}
+.footer__content__social__wrapper {
+}
+.footer__content__social__img {
 }
 @media only screen and (max-width: 1720px) {
   .services__container_block {
