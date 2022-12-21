@@ -1088,7 +1088,6 @@ textarea:-ms-input-placeholder {
 }
 .footer__content__logo {
   width: 15%;
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1149,20 +1148,22 @@ textarea:-ms-input-placeholder {
 }
 .footer__content__social {
   width: 15%;
-  background-color: red;
 
+  display: flex;
+  justify-content: flex-end;
 }
 .footer__content__social__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  
 }
 .footer__content__social__img {
   width: 50px;
   height: 50px;
   overflow: hidden;
-  background-color: green;
+
 }
 .footer__content__social__img img{
   height: 100%;
