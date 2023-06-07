@@ -586,6 +586,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   min-height: 560px;
+  justify-content: space-between;
 }
 .about__element_block {
   width: 25%;
