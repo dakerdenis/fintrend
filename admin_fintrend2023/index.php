@@ -51,23 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                        >Log In</button>
 
                       </form>
-
-
-                      <div class="created__by">
-                        Created by <a href="https://www.daker.site">DAKER</a>
-                      </div>
-
-
-                      <script>
-
-
-
-
-
-
-                      </script>
-
-
                 </body>
                 </html>
 
