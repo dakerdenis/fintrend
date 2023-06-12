@@ -110,13 +110,13 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(8, 21, 52);
+    background-color: #081534;
   }
   
 
 
   .main__wrapper {
-    height: 100vh;
+
     z-index: 20;
 
 }
