@@ -50,6 +50,61 @@ if (empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') {
 
         </div>
 
+
+
+        <div class="main__content__wrapper">
+            <div class="main__content__desc__navigation">
+                <div class="main__content__desc">
+                    <p>Список файлов</p>
+                </div>
+
+                <div class="main__content__add_file">
+                    <a href="./new_file.php">Добавить файл</a>
+                </div>
+
+            </div>
+
+
+            <div class="main__content__list">
+                <!-------->
+                <div class="main__content__list_element">
+                    <div class="element__image__desc">
+                        <div class="element__image">
+                            <img src="./style/imgs/file.png" alt="">
+                        </div>
+                        <div class="element__desc">
+                            <p>File_name</p>
+                        </div>
+                    </div>
+
+
+                    <!---->
+                    <div class="element__main__content">
+                        <div class="element__main__content_desc">
+                            file__description
+                        </div>
+                        <div class="element__main__content_desc">
+                            file__description
+                        </div>
+                        <div class="element__main__content_desc">
+                            file__description
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="element__settings_delete">
+                        <div class="element__settings">
+
+                        </div>
+                        <div class="element__delete">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
     </div>
 </body>
 
