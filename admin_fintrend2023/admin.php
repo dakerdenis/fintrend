@@ -93,14 +93,14 @@ if (empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') {
                     <!---->
                     <div class="element__settings_delete">
                         <div class="element__settings">
-                                <a href="#">
-                                    <img src="./style/imgs/settings.png" alt="">
-                                </a>
+                            <a href="#">
+                                <img src="./style/imgs/settings.png" alt="">
+                            </a>
                         </div>
                         <div class="element__delete">
-                        <a href="#">
-                                    <img src="./style/imgs/delete.png" alt="">
-                                </a>
+                            <a href="#">
+                                <img src="./style/imgs/delete.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
