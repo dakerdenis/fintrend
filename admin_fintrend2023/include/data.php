@@ -4,7 +4,7 @@
                 </div>
 
                 <div class="main__content__add_file">
-                    <a href="./new_file.php">Добавить файл</a>
+                    <a href="./admin.php?page=add">Добавить файл</a>
                 </div>
 
             </div>
