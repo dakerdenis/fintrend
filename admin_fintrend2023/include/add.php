@@ -4,7 +4,7 @@
     <div class="add_name">
       <div class="add_name__element">
         <div class="add_name__element_desc">
-          <p>AZ</p>
+          <p>Название AZ</p>
         </div>
         <div class="add_name__element_input">
           <input type="text" name="name_az" id="name_az">
@@ -12,7 +12,7 @@
       </div>
       <div class="add_name__element">
         <div class="add_name__element_desc">
-          <p>EN</p>
+          <p> Название EN</p>
         </div>
         <div class="add_name__element_input">
           <input type="text" name="name_en" id="name_en">
@@ -20,7 +20,7 @@
       </div>
       <div class="add_name__element">
         <div class="add_name__element_desc">
-          <p>RU</p>
+          <p> Название RU</p>
         </div>
         <div class="add_name__element_input">
           <input type="text" name="name_ru" id="name_ru">
@@ -32,7 +32,7 @@
     <div class="add_desc">
       <div class="add_desc__element">
         <div class="add_desc__element_desc">
-          <p>AZ</p>
+          <p>Описание AZ</p>
         </div>
         <div class="add_desc__element_input">
           <input type="text" name="name_az" id="name_az">
@@ -41,7 +41,7 @@
 
       <div class="add_desc__element">
         <div class="add_desc__element_desc">
-          <p>EN</p>
+          <p>Описание EN</p>
         </div>
         <div class="add_desc__element_input">
           <input type="text" name="name_en" id="name_en">
@@ -49,7 +49,7 @@
       </div>
       <div class="add_desc__element">
         <div class="add_desc__element_desc">
-          <p>RU</p>
+          <p>Описание RU</p>
         </div>
         <div class="add_desc__element_input">
           <input type="text" name="name_ru" id="name_ru">
