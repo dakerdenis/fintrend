@@ -81,13 +81,28 @@ if (empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') {
                     <!---->
                     <div class="element__main__content">
                         <div class="element__main__content_desc">
-                            file__description
+                            <div class="element__main__content_desc_lang">
+                                File Name AZ
+                            </div>
+                            <div class="element__main__content_desc_text">
+                                File description AZ lore File description AZ loreFile description AZ lore File description AZ lore File description AZ lore
+                            </div>
                         </div>
                         <div class="element__main__content_desc">
-                            file__description
+                        <div class="element__main__content_desc_lang">
+                                File Name EN
+                            </div>
+                            <div class="element__main__content_desc_text">
+                            File description EN lore description EN lore description EN loredescription EN loredescription EN lore
+                            </div>
                         </div>
                         <div class="element__main__content_desc">
-                            file__description
+                        <div class="element__main__content_desc_lang">
+                                File Name RU
+                            </div>
+                            <div class="element__main__content_desc_text">
+                            File description RU lore description RU loredescription RU loredescription RU loredescription RU loredescription RU lore
+                            </div>
                         </div>
                     </div>
                     <!---->
