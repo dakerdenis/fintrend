@@ -271,21 +271,25 @@
 }
 .element__main__content_desc {
   color: #081534;
-  height: 33%;
-  background-color: rgba(255, 0, 0, 0.24);
+  height: 31%;
+
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 .element__main__content_desc_lang{
-
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 .element__main__content_desc_text{
 
 }
 .element__settings_delete {
   width: 9%;
-
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
-
+  border-left: 1px solid #08153417;
 }
 .element__settings {
   width: 100%;
