@@ -1,6 +1,6 @@
 <div class="add__new__file">
 
-<form action="./add_file.php" method="POST" class="add_file" enctype="multipart/form-data>
+<form action="./upload.php" method="POST" class="add_file" enctype="multipart/form-data">
     <div class="add_name">
       <div class="add_name__element">
         <div class="add_name__element_desc">
@@ -69,7 +69,7 @@
 
     <div class="upload__file">
         <div class="add__file__button">
-            <button name="upload" type="submit">Upload</button>
+            <button name="submit" type="submit">Upload</button>
         </div>
     </div>
 
