@@ -408,3 +408,19 @@
   padding: 5px;
   width: 100%;
 }
+
+
+.upload__file {
+  width: 100%;
+  margin-top: 35px;
+}
+.add__file__button {
+  width: 100%;
+}
+.add__file__button button {
+  width: 150px;
+  height: 40px;
+  background-color: #081534;
+  font-size: 18px;
+  color: #f5f5f5;
+}

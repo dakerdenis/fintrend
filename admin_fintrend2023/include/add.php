@@ -65,5 +65,13 @@
       </div>
     </div>
 
+
+
+    <div class="upload__file">
+        <div class="add__file__button">
+            <button name="upload" type="submit">Upload</button>
+        </div>
+    </div>
+
   </form>
 </div>
