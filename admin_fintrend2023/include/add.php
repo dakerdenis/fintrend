@@ -1,6 +1,6 @@
 <div class="add__new__file">
 
-<form action="./upload.php" method="POST" class="add_file" enctype="multipart/form-data">
+<form action="./include/upload.php" method="POST" class="add_file" enctype="multipart/form-data">
     <div class="add_name">
       <div class="add_name__element">
         <div class="add_name__element_desc">
@@ -35,7 +35,7 @@
           <p>Описание AZ</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="name_az" id="name_az">
+          <input type="text" name="desc_az" id="desc_az">
         </div>
       </div>
 
@@ -44,7 +44,7 @@
           <p>Описание EN</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="name_en" id="name_en">
+          <input type="text" name="desc_en" id="desc_en">
         </div>
       </div>
       <div class="add_desc__element">
@@ -52,7 +52,7 @@
           <p>Описание RU</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="name_ru" id="name_ru">
+          <input type="text" name="desc_ru" id="desc_ru">
         </div>
       </div>
 

@@ -6,6 +6,16 @@ $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
 // Check if image file is a actual image or fake image
 if (isset($_POST["submit"])) {
+    $name_az = $_POST['name_az'];
+    $name_en = $_POST['name_en'];
+    $name_ru = $_POST['name_ru'];
+
+    $desc_az = $_POST['desc_az'];
+    $desc_en = $_POST['desc_en'];
+    $desc_ru = $_POST['desc_ru'];
+
+
+
     // Check if file already exists
     if (file_exists($target_file)) {
         echo "Sorry, file already exists.";
