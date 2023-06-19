@@ -36,7 +36,7 @@ if (empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') {
         <div class="main__content__wrapper">
             <?php if($_GET['page'] == 'data'){
                 include './include/data.php';
-            } else if($_GET['page']='add'){
+            } else if($_GET['page']=='add'){
                 include './include/add.php';
             }
             else{

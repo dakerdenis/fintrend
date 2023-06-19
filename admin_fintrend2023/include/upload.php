@@ -15,6 +15,22 @@ if (isset($_POST["submit"])) {
     $desc_ru = $_POST['desc_ru'];
 
 
+    $file_name = basename($_FILES["fileToUpload"]["name"]);
+
+
+    $query = "INSERT INTO `files` ( `name_az`, `name_en`, `name_ru`, `desc_az`, `desc_en`, `desc_ru`, `file_name`) ";
+    $query .="VALUES ('{$name_az}', '{$name_en}', '{$name_ru}', '{$desc_az}', '{$desc_en}', '{$desc_ru}', '{$file_name}');";
+    $connection = mysqli_connect('localhost', 'root', '', 'fintrend');
+    if (!$connection) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    $files = mysqli_query($connection, $query);
+    if(!$files){
+        die("QUERY FAILED ." . mysqli_error($connection));
+    } else {
+        echo "SUCCESS";
+    }
+
 
     // Check if file already exists
     if (file_exists($target_file)) {
@@ -44,9 +60,11 @@ if (isset($_POST["submit"])) {
     } else {
         if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
             echo "The file " . htmlspecialchars(basename($_FILES["fileToUpload"]["name"])) . " has been uploaded.";
+            header("Location: ../admin.php");
         } else {
             echo "Sorry, there was an error uploading your file.";
         }
     }
+    
 }
 ?>

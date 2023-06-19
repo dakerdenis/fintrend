@@ -1,5 +1,5 @@
 <div class="add__new__file">
-
+<a class="main__link" href="./admin.php?page=data"> На главную</a>
 <form action="./include/upload.php" method="POST" class="add_file" enctype="multipart/form-data">
     <div class="add_name">
       <div class="add_name__element">
