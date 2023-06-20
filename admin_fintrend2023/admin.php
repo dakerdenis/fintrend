@@ -38,6 +38,8 @@ if (empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') {
                 include './include/data.php';
             } else if($_GET['page']=='add'){
                 include './include/add.php';
+            }else if($_GET['page']=='edit'){
+                include './include/edit.php';
             }
             else{
                 include './include/data.php';

@@ -87,7 +87,7 @@
                             <!---->
                             <div class="element__settings_delete">
                                 <div class="element__settings">
-                                    <a href="#">
+                                    <a href="./admin.php?page=edit&id=<?php echo $file_id;?>">
                                         <img src="./style/imgs/settings.png" alt="">
                                     </a>
                                 </div>
