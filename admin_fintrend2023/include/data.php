@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <div class="main__content__desc__navigation">
                 <div class="main__content__desc">
                     <p>Список файлов</p>
@@ -11,59 +15,91 @@
 
 
             <div class="main__content__list">
-                <!-------->
-                <div class="main__content__list_element">
-                    <div class="element__image__desc">
-                        <div class="element__image">
-                            <img src="./style/imgs/file.png" alt="">
-                        </div>
-                        <div class="element__desc">
-                            <p>File_name</p>
-                        </div>
-                    </div>
 
 
-                    <!---->
-                    <div class="element__main__content">
-                        <div class="element__main__content_desc">
+            <?php
+            $connection = mysqli_connect('localhost', 'root', '', 'fintrend');
+            if (!$connection) {
+                die("Connection failed: " . mysqli_connect_error());
+            }
+            echo "";
+            $query = "SELECT * FROM files";
+            $select__files = mysqli_query($connection, $query);
+
+
+
+            while ($row = mysqli_fetch_assoc($select__files)) {
+                $file_id = $row['id'];
+                $name_az = $row['name_az'];
+                $name_en = $row['name_en'];
+                $name_ru = $row['name_ru'];
+
+                $desc_az = $row['desc_az'];
+                $desc_en = $row['desc_az'];
+                $desc_ru = $row['desc_az'];
+
+                $file_name = $row['file_name'];
+
+
+
+
+
+                ?>
+                    <!-------->
+                    <div class="main__content__list_element">
+                        <div class="element__image__desc">
+                            <a href="" class="element__image">
+                                <img src="./style/imgs/file.png" alt="">
+                            </a>
+                            <div class="element__desc">
+                                <p><?php echo $file_name; ?></p>
+                            </div>
+                        </div>
+
+
+                        <!---->
+                        <div class="element__main__content">
+                            <div class="element__main__content_desc">
+                                <div class="element__main__content_desc_lang">
+                                    File Name AZ
+                                </div>
+                                <div class="element__main__content_desc_text">
+                                    File description AZ lore File description AZ loreFile description AZ lore File description AZ lore File description AZ lore
+                                </div>
+                            </div>
+                            <div class="element__main__content_desc">
                             <div class="element__main__content_desc_lang">
-                                File Name AZ
+                                    File Name EN
+                                </div>
+                                <div class="element__main__content_desc_text">
+                                File description EN lore description EN lore description EN loredescription EN loredescription EN lore
+                                </div>
                             </div>
-                            <div class="element__main__content_desc_text">
-                                File description AZ lore File description AZ loreFile description AZ lore File description AZ lore File description AZ lore
-                            </div>
-                        </div>
-                        <div class="element__main__content_desc">
-                        <div class="element__main__content_desc_lang">
-                                File Name EN
-                            </div>
-                            <div class="element__main__content_desc_text">
-                            File description EN lore description EN lore description EN loredescription EN loredescription EN lore
-                            </div>
-                        </div>
-                        <div class="element__main__content_desc">
-                        <div class="element__main__content_desc_lang">
-                                File Name RU
-                            </div>
-                            <div class="element__main__content_desc_text">
-                            File description RU lore description RU loredescription RU loredescription RU loredescription RU loredescription RU lore
+                            <div class="element__main__content_desc">
+                            <div class="element__main__content_desc_lang">
+                                    File Name RU
+                                </div>
+                                <div class="element__main__content_desc_text">
+                                File description RU lore description RU loredescription RU loredescription RU loredescription RU loredescription RU lore
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!---->
-                    <div class="element__settings_delete">
-                        <div class="element__settings">
-                            <a href="#">
-                                <img src="./style/imgs/settings.png" alt="">
-                            </a>
-                        </div>
-                        <div class="element__delete">
-                            <a href="#">
-                                <img src="./style/imgs/delete.png" alt="">
-                            </a>
+                        <!---->
+                        <div class="element__settings_delete">
+                            <div class="element__settings">
+                                <a href="#">
+                                    <img src="./style/imgs/settings.png" alt="">
+                                </a>
+                            </div>
+                            <div class="element__delete">
+                                <a href="#">
+                                    <img src="./style/imgs/delete.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                <?php } ?>
 
 
             </div>
