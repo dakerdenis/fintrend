@@ -45,59 +45,59 @@
 
 
                 ?>
-                    <!-------->
-                    <div class="main__content__list_element">
-                        <div class="element__image__desc">
-                            <a href="" class="element__image">
-                                <img src="./style/imgs/file.png" alt="">
-                            </a>
-                            <div class="element__desc">
-                                <p><?php echo $file_name; ?></p>
+                        <!-------->
+                        <div class="main__content__list_element">
+                            <div class="element__image__desc">
+                                <a href="./include/uploads/<?php echo $file_name;?>" class="element__image">
+                                    <img src="./style/imgs/file.png" alt="">
+                                </a>
+                                <div class="element__desc">
+                                    <p><?php echo $file_name; ?></p>
+                                </div>
                             </div>
-                        </div>
 
 
-                        <!---->
-                        <div class="element__main__content">
-                            <div class="element__main__content_desc">
+                            <!---->
+                            <div class="element__main__content">
+                                <div class="element__main__content_desc">
+                                    <div class="element__main__content_desc_lang">
+                                        <?php echo $name_az; ?>
+                                    </div>
+                                    <div class="element__main__content_desc_text">
+                                    <?php echo $desc_az; ?>
+                                    </div>
+                                </div>
+                                <div class="element__main__content_desc">
                                 <div class="element__main__content_desc_lang">
-                                    File Name AZ
+                                        <?php echo $name_en; ?>
+                                    </div>
+                                    <div class="element__main__content_desc_text">
+                                    <?php echo $desc_en; ?>
+                                    </div>
                                 </div>
-                                <div class="element__main__content_desc_text">
-                                    File description AZ lore File description AZ loreFile description AZ lore File description AZ lore File description AZ lore
-                                </div>
-                            </div>
-                            <div class="element__main__content_desc">
-                            <div class="element__main__content_desc_lang">
-                                    File Name EN
-                                </div>
-                                <div class="element__main__content_desc_text">
-                                File description EN lore description EN lore description EN loredescription EN loredescription EN lore
-                                </div>
-                            </div>
-                            <div class="element__main__content_desc">
-                            <div class="element__main__content_desc_lang">
-                                    File Name RU
-                                </div>
-                                <div class="element__main__content_desc_text">
-                                File description RU lore description RU loredescription RU loredescription RU loredescription RU loredescription RU lore
+                                <div class="element__main__content_desc">
+                                <div class="element__main__content_desc_lang">
+                                <?php echo $name_ru; ?>
+                                    </div>
+                                    <div class="element__main__content_desc_text">
+                                    <?php echo $desc_ru; ?>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!---->
-                        <div class="element__settings_delete">
-                            <div class="element__settings">
-                                <a href="#">
-                                    <img src="./style/imgs/settings.png" alt="">
-                                </a>
-                            </div>
-                            <div class="element__delete">
-                                <a href="#">
-                                    <img src="./style/imgs/delete.png" alt="">
-                                </a>
+                            <!---->
+                            <div class="element__settings_delete">
+                                <div class="element__settings">
+                                    <a href="#">
+                                        <img src="./style/imgs/settings.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="element__delete">
+                                    <a href="#">
+                                        <img src="./style/imgs/delete.png" alt="">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                 <?php } ?>
 
