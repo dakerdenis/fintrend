@@ -1,6 +1,6 @@
 <?php
 
-$connection = mysqli_connect('localhost', 'root', '', 'files');
+$connection = mysqli_connect('localhost', 'root', '', 'fintrend');
 if(isset($_POST['submit'])){
     $id = $_POST['file_id'];
     $name_az = $_POST['name_az'];
