@@ -7,7 +7,7 @@
         die("Connection failed: " . mysqli_connect_error());
     }
     echo "";
-    $query = "SELECT * FROM files WHERE id = $file_id_get";
+    $query = "SELECT * FROM files WHERE id = $file_id_get   ";
     $select__files = mysqli_query($connection, $query);
 
 
@@ -39,7 +39,7 @@
           <p>Название AZ</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_az" id="name_az">
+          <input type="text" name="name_az" value="<?php echo $name_az; ?>" id="name_az">
         </div>
       </div>
       <div class="add_name__element">
@@ -47,7 +47,7 @@
           <p> Название EN</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_en" id="name_en">
+          <input type="text" name="name_en" value="<?php echo $name_en; ?>" id="name_en">
         </div>
       </div>
       <div class="add_name__element">
@@ -55,7 +55,7 @@
           <p> Название RU</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_ru" id="name_ru">
+          <input type="text" name="name_ru" value="<?php echo $name_ru; ?>" id="name_ru">
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@
           <p>Описание AZ</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="desc_az" id="desc_az">
+          <input type="text" name="desc_az" value="<?php echo $desc_az; ?>" id="desc_az">
         </div>
       </div>
 
@@ -76,7 +76,7 @@
           <p>Описание EN</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="desc_en" id="desc_en">
+          <input type="text" name="desc_en" value="<?php echo $desc_en; ?>" id="desc_en">
         </div>
       </div>
       <div class="add_desc__element">
