@@ -92,7 +92,7 @@
                                     </a>
                                 </div>
                                 <div class="element__delete">
-                                    <a href="#">
+                                    <a href="./include/delete.php?id=<?php echo  $file_id; ?>">
                                         <img src="./style/imgs/delete.png" alt="">
                                     </a>
                                 </div>
