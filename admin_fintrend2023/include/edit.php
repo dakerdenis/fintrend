@@ -31,7 +31,7 @@
 ?>
 <div class="add__new__file">
 <a class="main__link" href="./admin.php?page=data"> На главную</a>
-<form action="./include/upload.php" method="POST" class="add_file" enctype="multipart/form-data">
+<form action="./include/edit_file.php" method="POST" class="add_file" enctype="multipart/form-data">
    <div class="file_edit"> Редактирование файла</div>
     <div class="add_name">
       <div class="add_name__element">
@@ -84,7 +84,7 @@
           <p>Описание RU</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="desc_ru" id="desc_ru">
+          <input type="text" name="desc_ru" value="<?php echo $desc_ru; ?>" id="desc_ru">
         </div>
       </div>
 
@@ -94,9 +94,9 @@
 
     <div class="upload__file">
         <div class="add__file__button">
-            <button name="submit" type="submit">Upload</button>
+            <button name="submit" type="submit">Update</button>
         </div>
     </div>
-
+    <input style="display: none; visibility: hidden;" type="text" name="file_id" value="<?php echo $file_id; ?>" id="file_id">
   </form>
 </div>
