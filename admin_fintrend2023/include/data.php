@@ -35,8 +35,8 @@
                 $name_ru = $row['name_ru'];
 
                 $desc_az = $row['desc_az'];
-                $desc_en = $row['desc_az'];
-                $desc_ru = $row['desc_az'];
+                $desc_en = $row['desc_en'];
+                $desc_ru = $row['desc_ru'];
 
                 $file_name = $row['file_name'];
 
@@ -48,7 +48,7 @@
                         <!-------->
                         <div class="main__content__list_element">
                             <div class="element__image__desc">
-                                <a href="./include/uploads/<?php echo $file_name;?>" class="element__image">
+                                <a target="_blank" href="../files/<?php echo $file_name;?>" class="element__image">
                                     <img src="./style/imgs/file.png" alt="">
                                 </a>
                                 <div class="element__desc">
@@ -92,7 +92,7 @@
                                     </a>
                                 </div>
                                 <div class="element__delete">
-                                    <a href="./include/uploads/delete.php?id=<?php echo  $file_id; ?>">
+                                    <a href="../files/delete.php?id=<?php echo  $file_id; ?>">
                                         <img src="./style/imgs/delete.png" alt="">
                                     </a>
                                 </div>

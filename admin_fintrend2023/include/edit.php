@@ -19,8 +19,8 @@
         $name_ru = $row['name_ru'];
 
         $desc_az = $row['desc_az'];
-        $desc_en = $row['desc_az'];
-        $desc_ru = $row['desc_az'];
+        $desc_en = $row['desc_en'];
+        $desc_ru = $row['desc_ru'];
 
         $file_name = $row['file_name'];
 
