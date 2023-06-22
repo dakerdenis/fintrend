@@ -7,7 +7,7 @@
           <p>Название AZ</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_az" id="name_az">
+          <input type="text" name="name_az" id="name_az" required>
         </div>
       </div>
       <div class="add_name__element">
@@ -15,7 +15,7 @@
           <p> Название EN</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_en" id="name_en">
+          <input type="text" name="name_en" id="name_en" required>
         </div>
       </div>
       <div class="add_name__element">
@@ -23,7 +23,7 @@
           <p> Название RU</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_ru" id="name_ru">
+          <input type="text" name="name_ru" id="name_ru" required>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@
 
     <div class="add__file">
       <div class="add__file__button">
-          <input type="file" name="fileToUpload" id="fileToUpload">
+          <input type="file" name="fileToUpload" id="fileToUpload" required>
       </div>
     </div>
 
