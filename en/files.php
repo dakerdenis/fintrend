@@ -61,8 +61,8 @@
               <input type="checkbox" id="openDropdown" hidden />
 
               <div class="dropdown-menu">
-                <a href="../files.html">AZ</a>
-                <a href="../ru/files.html">RU</a>
+                <a href="../files.php">AZ</a>
+                <a href="../ru/files.php">RU</a>
               </div>
             </div>
           </div>
@@ -78,8 +78,8 @@
                 <img src="../imgs/logo228.png" alt="" />
               </div>
               <div class="mobile__language">
-                <a href="../files.html">AZ</a>
-                <a href="../ru/files.html">RU</a>
+                <a href="../files.php">AZ</a>
+                <a href="../ru/files.php">RU</a>
               </div>
               <div class="mobile__line"></div>
               <a href="./index.html#element2" class="burger-menu_link">About us</a>
@@ -101,53 +101,58 @@
           Files and Certificates
         </div>
         <div class="about__files__wrapper">
-          <!---files element----->
-          <div class="about__files__element">
-            <div class="about__files__element__folder__icon">
-              <div class="folder">
-                <div class="folder__back">
-                  <div class="paper"></div>
-                  <div class="paper"></div>
-                  <div class="paper"></div>
-                  <div class="folder__front"></div>
-                  <div class="folder__front right"></div>
+        <?php
+          $connection = mysqli_connect('localhost', 'root', '', 'fintrend');
+          if (!$connection) {
+            die("Connection failed: " . mysqli_connect_error());
+          }
+          echo "";
+          $query = "SELECT * FROM files";
+          $select__files = mysqli_query($connection, $query);
+
+
+
+          while ($row = mysqli_fetch_assoc($select__files)) {
+            $file_id = $row['id'];
+            $name_az = $row['name_az'];
+            $name_en = $row['name_en'];
+            $name_ru = $row['name_ru'];
+
+            $desc_az = $row['desc_az'];
+            $desc_en = $row['desc_en'];
+            $desc_ru = $row['desc_ru'];
+
+            $file_name = $row['file_name'];
+
+
+
+
+
+          ?>
+            <!---files element----->
+            <div class="about__files__element">
+              <div class="about__files__element__folder__icon">
+                <div class="folder">
+                  <div class="folder__back">
+                    <div class="paper"></div>
+                    <div class="paper"></div>
+                    <div class="paper"></div>
+                    <div class="folder__front"></div>
+                    <div class="folder__front right"></div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="about__files__element__desc">
-              Licence
-            </div>
+              <div class="about__files__element__desc">
+                <p><?php echo $name_en ?></p>
+                <span><?php echo $desc_en ?></span>
+              </div>
 
-            <div class="about__files__download__button">
-              <a target="_blank" href="../docs/licence.pdf">Download</a>
-            </div>
-          </div>
-
-
-          <!---files element----->
-          <div class="about__files__element">
-            <div class="about__files__element__folder__icon">
-              <div class="folder">
-                <div class="folder__back">
-                  <div class="paper"></div>
-                  <div class="paper"></div>
-                  <div class="paper"></div>
-                  <div class="folder__front"></div>
-                  <div class="folder__front right"></div>
-                </div>
+              <div class="about__files__download__button">
+                <a target="_blank" href="../files/<?php echo $file_name ?>">Download</a>
               </div>
             </div>
-
-            <div class="about__files__element__desc">
-              <p>Annual reports</p>
-              <span>2022 year auditor report</span>
-            </div>
-
-            <div class="about__files__download__button">
-              <a target="_blank" href="../docs/auditor.pdf">Download</a>
-            </div>
-          </div>
+          <?php } ?>
 
 
         </div>

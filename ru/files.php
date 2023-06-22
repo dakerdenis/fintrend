@@ -61,8 +61,8 @@
               <input type="checkbox" id="openDropdown" hidden />
 
               <div class="dropdown-menu">
-                <a href="../files.html">AZ</a>
-                <a href="../en/files.html">EN</a>
+                <a href="../files.php">AZ</a>
+                <a href="../en/files.php">EN</a>
               </div>
             </div>
           </div>
@@ -78,8 +78,8 @@
                 <img src="../imgs/logo228.png" alt="" />
               </div>
               <div class="mobile__language">
-                <a href="../files.html">AZ</a>
-                <a href="../en/files.html">EN</a>
+                <a href="../files.php">AZ</a>
+                <a href="../en/files.php">EN</a>
               </div>
               <div class="mobile__line"></div>
               <a href="./index.html#element2" class="burger-menu_link">О нас</a>
@@ -149,7 +149,7 @@
               </div>
 
               <div class="about__files__download__button">
-                <a target="_blank" href="./files/<?php echo $file_name ?>">Yükləmək</a>
+                <a target="_blank" href="../files/<?php echo $file_name ?>">Скачать</a>
               </div>
             </div>
           <?php } ?>
@@ -162,7 +162,7 @@
           <div class="footer__content__wrapper">
             <!------footer logo-->
             <div class="footer__content__logo">
-              <img src="./imgs/footer__logo.png" alt="">
+              <img src="../imgs/footer__logo.png" alt="">
             </div>
             <!---footer contact data--->
             <div class="footer__content__contact">
