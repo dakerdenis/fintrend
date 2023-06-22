@@ -7,7 +7,7 @@
           <p>Название AZ</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_az" id="name_az" required>
+          <input maxlength="50" type="text" name="name_az" id="name_az" required>
         </div>
       </div>
       <div class="add_name__element">
@@ -15,7 +15,7 @@
           <p> Название EN</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_en" id="name_en" required>
+          <input maxlength="50" type="text" name="name_en" id="name_en" required>
         </div>
       </div>
       <div class="add_name__element">
@@ -23,7 +23,7 @@
           <p> Название RU</p>
         </div>
         <div class="add_name__element_input">
-          <input type="text" name="name_ru" id="name_ru" required>
+          <input maxlength="50" type="text" name="name_ru" id="name_ru" required>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
           <p>Описание AZ</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="desc_az" id="desc_az">
+          <input maxlength="50" type="text" name="desc_az" id="desc_az">
         </div>
       </div>
 
@@ -44,7 +44,7 @@
           <p>Описание EN</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="desc_en" id="desc_en">
+          <input maxlength="50" type="text" name="desc_en" id="desc_en">
         </div>
       </div>
       <div class="add_desc__element">
@@ -52,7 +52,7 @@
           <p>Описание RU</p>
         </div>
         <div class="add_desc__element_input">
-          <input type="text" name="desc_ru" id="desc_ru">
+          <input maxlength="50" type="text" name="desc_ru" id="desc_ru">
         </div>
       </div>
 
