@@ -773,6 +773,9 @@ h6 {
   overflow: hidden;
   text-align: center;
   font-weight: 500;
+
+  width: 100%;
+  overflow: hidden;
 }
 .about__files__element__desc span{
   font-weight: 400;
