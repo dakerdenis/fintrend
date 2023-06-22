@@ -20,7 +20,7 @@ if (isset($_POST["submit"])) {
 
     $query = "INSERT INTO `files` ( `name_az`, `name_en`, `name_ru`, `desc_az`, `desc_en`, `desc_ru`, `file_name`) ";
     $query .="VALUES ('{$name_az}', '{$name_en}', '{$name_ru}', '{$desc_az}', '{$desc_en}', '{$desc_ru}', '{$file_name}');";
-    $connection = mysqli_connect('localhost', 'root', '', 'fintrend');
+    $connection = mysqli_connect('localhost', 'denitwcz', 'Troya@9977A', 'denitwcz_kafe');
     if (!$connection) {
         die("Connection failed: " . mysqli_connect_error());
     }

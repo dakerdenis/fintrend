@@ -7,9 +7,10 @@
   box-sizing: border-box;
 }
 body {
-  background: url('./style/imgs/123.jpg');
+  /*background: url('./style/imgs/123.jpg');*/
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgba(39, 48, 73, 1);
   
 }
 form {

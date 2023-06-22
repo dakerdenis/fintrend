@@ -103,7 +103,7 @@
         </div>
         <div class="about__files__wrapper">
           <?php
-          $connection = mysqli_connect('localhost', 'root', '', 'fintrend');
+          $connection = mysqli_connect('localhost', 'denitwcz', 'Troya@9977A', 'denitwcz_kafe');
           if (!$connection) {
             die("Connection failed: " . mysqli_connect_error());
           }
