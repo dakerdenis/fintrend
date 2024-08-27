@@ -772,13 +772,6 @@ h6 {
   height: 100px;
   overflow: hidden;
   text-align: center;
-  font-weight: 500;
-
-  width: 100%;
-  overflow: hidden;
-}
-.about__files__element__desc span{
-  font-weight: 400;
 }
 .about__files__download__button {
   margin-top: 2em;
